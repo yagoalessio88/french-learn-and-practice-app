@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+body {
+  background-color: rgb(189, 189, 189);
+}
+/* GLOBAL CLASSES */
+.main-article {
+  width: 90%;
+  margin: 20vh auto;
+  border-radius: 1rem;
+  background-color: white;
+
+  padding: 1.5rem;
+  box-shadow: 1px 1px 10px 10px rgba(77, 76, 76, 0.2);
+}
+
+.button {
+  padding: 0.7rem;
+  height: 2.5rem;
+  text-transform: capitalize;
+  background-color: rgba(51, 131, 228, 0.9);
+  color: white;
+  border-style: none;
+  border-radius: 0.2rem;
+  box-shadow: -1px 0px 37px -12px rgba(0, 0, 0, 0.75);
+  transition: all 0.5s ease;
+}
+.button:hover {
+  box-shadow: -1px 0px 37px -6px rgba(0, 0, 0, 0.68);
+  cursor: pointer;
+  background-color: rgba(34, 95, 169, 0.9);
+}
