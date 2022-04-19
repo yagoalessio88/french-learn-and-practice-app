@@ -1,11 +1,19 @@
 import "./App.css";
-import { VerbsPractice } from "./components/verbs-practice";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { FooterNavbar } from "./pages/FooterNavbar";
+
+import { HomeMenu } from "./pages/HomeMenu.js";
+import { VerbesMenu } from "./pages/VerbesMenu";
 
 function App() {
   return (
-    <div className="App">
-      <VerbsPractice />
-    </div>
+    <Router>
+      <FooterNavbar />
+      <Routes>
+        <Route exact path="/" element={<HomeMenu />} />
+        <Route path="/verbesmenu" element={<VerbesMenu />} />
+      </Routes>
+    </Router>
   );
 }
 
