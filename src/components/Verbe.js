@@ -12,10 +12,10 @@ const Verbe = () => {
       <article className="main-article main-verbe">
         <h3 className="main-verbe__title">{id}</h3>
         <ul>
-          {conjugaison.map((e) => {
+          {conjugaison.map((e, index) => {
             const { first, last } = e;
             return (
-              <li className="main-verbe__li-element">
+              <li key={index} className="main-verbe__li-element">
                 {first}
                 <input type="text" />
                 {last}
