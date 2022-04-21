@@ -36,9 +36,30 @@ body {
   margin: 5vh auto;
   border-radius: 1rem;
   background-color: var(--background-secondary);
-
   padding: 1.5rem;
-  box-shadow: 1px 1px 10px 10px rgba(77, 76, 76, 0.2);
+  /* box-shadow: 1px 1px 10px 10px rgba(77, 76, 76, 0.2); */
+}
+
+.main-verbe {
+  text-align: center;
+}
+.main-verbe__title {
+  margin-bottom: 2rem;
+  text-transform: capitalize;
+  font-size: 2rem;
+}
+.main-verbe ul {
+  text-align: left;
+}
+.main-verbe__li-element {
+  margin-bottom: 1rem;
+}
+.main-verbe input {
+  margin: 0 0.5rem;
+  width: 5rem;
+}
+.main-verbe__button {
+  margin-top: 3rem;
 }
 
 .button {

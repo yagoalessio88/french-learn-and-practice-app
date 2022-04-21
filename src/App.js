@@ -1,19 +1,21 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import { FooterNavbar } from "./pages/FooterNavbar";
-
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { FooterNavbar } from "./pages/FooterNavbar.js";
 import { HomeMenu } from "./pages/HomeMenu.js";
 import { VerbesMenu } from "./pages/VerbesMenu";
+import { Verbe } from "./components/Verbe.js";
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <FooterNavbar />
       <Routes>
-        <Route exact path="/" element={<HomeMenu />} />
+        <Route path="/" element={<HomeMenu />} />
         <Route path="/verbesmenu" element={<VerbesMenu />} />
+        <Route path="verbesmenu/:id" element={<Verbe />} />
+        <Route path="*" />
       </Routes>
-    </Router>
+    </BrowserRouter>
   );
 }
 

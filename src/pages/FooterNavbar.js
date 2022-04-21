@@ -28,6 +28,7 @@ const Wrapper = styled.section`
     padding: 1rem;
     display: flex;
     justify-content: space-around;
+    background-color: rgb(243, 242, 242);
   }
   .navbar__icon {
     height: 2rem;

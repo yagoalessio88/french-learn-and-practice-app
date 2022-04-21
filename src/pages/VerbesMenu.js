@@ -7,11 +7,11 @@ const VerbesMenu = () => {
     <Wrapper>
       <nav className="navbar">
         <ul>
-          {data.map((verbo) => {
+          {data.map((verbo, index) => {
             return (
-              <li>
+              <li key={index}>
                 {/* navegacion con id al verbo correspondiente y componente */}
-                <Link to="">{verbo.nombre}</Link>
+                <Link to={`/verbesmenu/${verbo.nombre}`}>{verbo.nombre}</Link>
               </li>
             );
           })}

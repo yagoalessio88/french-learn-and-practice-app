@@ -11,5 +11,26 @@ export const data = [
       { first: "Aujourd'hui, Lea et Marie", last: "à l'ecole." },
     ],
   },
-  { nombre: "voir", conjugaison: [] },
+  {
+    nombre: "avoir",
+    conjugaison: [
+      { first: "Aujourd'hui j'", last: "mal à la tête toute la journée." },
+      { first: "Tu", last: "vu ce film?" },
+      { first: "Elle avait beaucoup de poupées lorsqu'elle", last: "10 ans." },
+      { first: "On", last: "cherché partout." },
+      {
+        first: "Malgré tous nos problèmes que nous",
+        last: "jusqu'ici, nous avons l'opportunité de partir en vacances.",
+      },
+      {
+        first: "Il faudrait que vous",
+        last: "beaucoup de chance pour réussir votre examen.",
+      },
+
+      {
+        first: "Bien qu'elles",
+        last: "une augmentation, leurs salaires étaient encore trop bas.",
+      },
+    ],
+  },
 ];
