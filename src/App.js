@@ -4,6 +4,7 @@ import { FooterNavbar } from "./pages/FooterNavbar.js";
 import { HomeMenu } from "./pages/HomeMenu.js";
 import { VerbesMenu } from "./pages/VerbesMenu";
 import { Verbe } from "./components/Verbe.js";
+import { RechercherVerbes } from "./components/RechercherVerbes";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeMenu />} />
         <Route path="/verbesmenu" element={<VerbesMenu />} />
+        <Route path="/rechercherverbes" element={<RechercherVerbes />}></Route>
         <Route path="verbesmenu/:id" element={<Verbe />} />
         <Route path="*" />
       </Routes>

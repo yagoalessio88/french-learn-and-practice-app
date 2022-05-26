@@ -6,12 +6,13 @@ const VerbesMenu = () => {
   return (
     <Wrapper>
       <nav className="navbar">
-        <ul>
+        <ul className="navbar_list">
           {data.map((verbo, index) => {
             return (
-              <li key={index}>
-                {/* navegacion con id al verbo correspondiente y componente */}
-                <Link to={`/verbesmenu/${verbo.nombre}`}>{verbo.nombre}</Link>
+              <li className="navbar_list_item" key={index}>
+                <Link to={`/verbesmenu/${verbo.nombre}`} className="button">
+                  {verbo.nombre}
+                </Link>
               </li>
             );
           })}
@@ -30,12 +31,5 @@ const Wrapper = styled.section`
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
-  button {
-    border-style: none;
-    background-color: white;
-  }
-  button:hover {
-    cursor: pointer;
   }
 `;

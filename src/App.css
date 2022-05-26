@@ -21,23 +21,24 @@
   --light-yellow: rgba(244, 211, 94);
   --light-brown: rgba(238, 150, 75);
   --salmon: rgba(249, 87, 56);
+  --light-shadow: -1px 0px 10px -2px rgba(0, 0, 0, 0.75);
 }
 
 li {
   list-style: none;
+}
+a {
+  text-decoration: none;
 }
 body {
   background-color: var(--background-main);
   color: var(--typography-1);
 }
 /* GLOBAL CLASSES */
-.main-article {
+.section {
   width: 90%;
   margin: 5vh auto;
-  border-radius: 1rem;
-  background-color: var(--background-secondary);
   padding: 1.5rem;
-  /* box-shadow: 1px 1px 10px 10px rgba(77, 76, 76, 0.2); */
 }
 
 .main-verbe {
@@ -77,4 +78,15 @@ body {
   box-shadow: -1px 0px 37px -6px rgba(0, 0, 0, 0.68);
   cursor: pointer;
   background-color: rgba(34, 95, 169, 0.9);
+}
+/* STYLE FOR LISTS OF BUTTONS */
+.navbar_list {
+  padding: 0.5rem;
+  height: 90%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+}
+.navbar_list_item {
+  margin: 1rem auto;
 }

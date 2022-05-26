@@ -5,9 +5,16 @@ const HomeMenu = () => {
   return (
     <Wrapper>
       <nav className="navbar">
-        <ul>
-          <li>
-            <Link to="/verbesmenu">Verbes Menu</Link>
+        <ul className="navbar_list">
+          <li className="navbar_list_item">
+            <Link to="/verbesmenu" className="button">
+              Verbes Menu
+            </Link>
+          </li>
+          <li className="navbar_list_item">
+            <Link to="/rechercherverbes" className="button">
+              rechercher verbes
+            </Link>
           </li>
         </ul>
       </nav>
@@ -24,12 +31,5 @@ const Wrapper = styled.section`
     display: flex;
     justify-content: space-around;
     align-items: center;
-  }
-  button {
-    border-style: none;
-    background-color: white;
-  }
-  button:hover {
-    cursor: pointer;
   }
 `;
