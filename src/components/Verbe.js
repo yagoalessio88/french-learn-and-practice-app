@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import { data } from "../data/conjugaison-data.js";
 import { useParams } from "react-router-dom";
-import { useState } from "react";
 
 const Verbe = () => {
   const { id } = useParams();
