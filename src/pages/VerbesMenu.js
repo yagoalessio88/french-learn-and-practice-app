@@ -5,7 +5,7 @@ import { data } from "../data/conjugaison-data";
 const VerbesMenu = () => {
   return (
     <Wrapper>
-      <nav className="navbar">
+      <nav className="navbar app_body">
         <ul className="navbar_list">
           {data.map((verbo, index) => {
             return (
@@ -26,8 +26,6 @@ export { VerbesMenu };
 
 const Wrapper = styled.section`
   .navbar {
-    height: 100vh;
-    width: 100vw;
     display: flex;
     justify-content: space-around;
     align-items: center;

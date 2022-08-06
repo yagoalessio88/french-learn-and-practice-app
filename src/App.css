@@ -31,8 +31,13 @@ a {
   text-decoration: none;
 }
 body {
+  
   background-color: var(--background-main);
   color: var(--typography-1);
+}
+#root{
+  height: 100vh;
+  width: 100vw;
 }
 /* GLOBAL CLASSES */
 .section {
@@ -41,29 +46,10 @@ body {
   padding: 1.5rem;
 }
 
-.main-verbe {
-  text-align: center;
-}
-.main-verbe__title {
-  margin-bottom: 2rem;
-  text-transform: capitalize;
-  font-size: 2rem;
-}
-.main-verbe ul {
-  text-align: left;
-}
-.main-verbe__li-element {
-  margin-bottom: 1rem;
-}
-.main-verbe input {
-  margin: 0 0.5rem;
-  width: 5rem;
-}
-.main-verbe__button {
-  margin-top: 3rem;
-}
+
 
 .button {
+  max-width: 200px;
   padding: 0.7rem;
   height: 2.5rem;
   text-transform: capitalize;
@@ -80,6 +66,17 @@ body {
   background-color: rgba(34, 95, 169, 0.9);
 }
 /* STYLE FOR LISTS OF BUTTONS */
+.app_body{
+  padding: 1.5rem;
+  height:calc(100vh - 4rem);
+  width: 100%;
+}
+@media screen and (min-width:700px) {
+  .app_body{
+    width: 60%;
+    margin:0 auto;
+  }
+}
 .navbar_list {
   padding: 0.5rem;
   height: 90%;
