@@ -17,11 +17,9 @@ function VerbeVoirConjugaison() {
 						return <li key={index}>{item.voirConjugaison}</li>;
 					})}
 				</ul>
-				<div>
-					<Link to={`/verbesmenu/${id}`} className="button">
-						retourner
-					</Link>
-				</div>
+				<Link to={`/verbesmenu/${id}`} className="button link">
+					retourner
+				</Link>
 			</section>
 		</Wrapper>
 	);

@@ -31,7 +31,7 @@ a {
   text-decoration: none;
 }
 body {
-  
+  overflow-x: hidden;
   background-color: var(--background-main);
   color: var(--typography-1);
 }
@@ -60,10 +60,10 @@ body {
   border-style: none;
   border-radius: 0.2rem;
   box-shadow: -1px 0px 20px -12px rgba(0, 0, 0, 0.75);
-  transition: all 0.5s ease;
+  transition: all 0.3s ease;
 }
 .button:hover {
-  box-shadow: -1px 0px 25px -7px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 30px -9px rgba(0, 0, 0, 0.75);
   cursor: pointer;
   /* background-color: rgba(34, 95, 169, 0.9); */
 }

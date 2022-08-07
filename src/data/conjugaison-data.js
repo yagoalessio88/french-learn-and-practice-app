@@ -233,6 +233,198 @@ export const data = [
 			},
 		],
 	},
+	{
+		nombre: "Faire",
+		conjugaison: [
+			{
+				first: "Voilà pourquoi je",
+				reponse: "fais",
+				last: "toujours les plans.",
+				voirConjugaison: "Je fais",
+			},
+			{
+				first: "J'aime comme tu",
+				reponse: "fais",
+				last: "les choses.",
+				voirConjugaison: "Tu fais",
+			},
+			{
+				first: "¿Comment il",
+				reponse: "fait",
+				last: "pour trouver un acheteur?",
+				voirConjugaison: "Il/Elle fait",
+			},
+			{
+				first: "Je ne suis pas totalement sûr de ce qu'on",
+				reponse: "fait",
+				last: "ici.",
+				voirConjugaison: "On fait",
+			},
+			{
+				first: "Dites-moi que nous",
+				reponse: "faisons",
+				last: "tout pour le récuperéer.",
+				voirConjugaison: "Nous faisons",
+			},
+			{
+				first: "Michelle, vous",
+				reponse: "faites",
+				last: "du bon travail!",
+				voirConjugaison: "Vous faites",
+			},
+
+			{
+				first: "Je ne sais pas comment elles",
+				reponse: "font",
+				last: "ça.",
+				voirConjugaison: "Ils/Elles font",
+			},
+		],
+	},
+	{
+		nombre: "Dire",
+		conjugaison: [
+			{
+				first: "Vous verrez, je",
+				reponse: "dis",
+				last: "la vérité.",
+				voirConjugaison: "Je dis",
+			},
+			{
+				first: "Comme tu",
+				reponse: "dis",
+				last: ", elle a disparu.",
+				voirConjugaison: "Tu dis",
+			},
+			{
+				first: "Il",
+				reponse: "dit",
+				last: "qu'uil est prêt.",
+				voirConjugaison: "Il/Elle dit",
+			},
+			{
+				first: "¿Comment on",
+				reponse: "dit",
+				last: "maman en Anglais?",
+				voirConjugaison: "On dit",
+			},
+			{
+				first: "En résumé, nous",
+				reponse: "disons",
+				last: "oui à la consolidation de la convergence.",
+				voirConjugaison: "Nous disons",
+			},
+			{
+				first: "Pourtant, vous",
+				reponse: "dites",
+				last: "que l'homme qui connaît son secret est mort.",
+				voirConjugaison: "Vous dites",
+			},
+
+			{
+				first: "Et ils",
+				reponse: "disent",
+				last: "lui avoir sauvé la vie.",
+				voirConjugaison: "Ils/Elles disent",
+			},
+		],
+	},
+	{
+		nombre: "Pouvoir",
+		conjugaison: [
+			{
+				first: "J'admets que je",
+				reponse: "peux",
+				last: "être chiante.",
+				voirConjugaison: "Je peux",
+			},
+			{
+				first: "Zoidberg, tu",
+				reponse: "peux",
+				last: "remplacer Fry.",
+				voirConjugaison: "Tu peux",
+			},
+			{
+				first: "Voyez s'il",
+				reponse: "peut",
+				last: "venir lundi.",
+				voirConjugaison: "Il/Elle peut",
+			},
+			{
+				first: "Ensemble, on",
+				reponse: "peut",
+				last: "refaçonner cette planète.",
+				voirConjugaison: "On peut",
+			},
+			{
+				first: "Entendu, nous",
+				reponse: "pouvons",
+				last: "travailler ça.",
+				voirConjugaison: "Nous pouvons",
+			},
+			{
+				first: "Comme convenu, maintenant vous",
+				reponse: "pouvez",
+				last: "partir.",
+				voirConjugaison: "Vous pouvez",
+			},
+
+			{
+				first: "Les Maldives font ce qu'elles",
+				reponse: "peuvent",
+				last: "pour protéger leur population.",
+				voirConjugaison: "Ils/Elles peuvent",
+			},
+		],
+	},
+	{
+		nombre: "Vouloir",
+		conjugaison: [
+			{
+				first: "¿Vous voyez pourquoi je",
+				reponse: "veux",
+				last: "rester ici?",
+				voirConjugaison: "Je veux",
+			},
+			{
+				first: "Fais ce que tu",
+				reponse: "veux",
+				last: ".",
+				voirConjugaison: "Tu veux",
+			},
+			{
+				first: "C'est exactement ce qu'il",
+				reponse: "veut",
+				last: ".",
+				voirConjugaison: "Il/Elle veut",
+			},
+			{
+				first: "Non, on",
+				reponse: "veut",
+				last: "un enquêteur professionnel.",
+				voirConjugaison: "On veut",
+			},
+			{
+				first: "Et nous",
+				reponse: "voulons",
+				last: "aussi fabriquer les meilleurs remèdes.",
+				voirConjugaison: "Nous voulons",
+			},
+			{
+				first: "Choisissez comment vous",
+				reponse: "voulez",
+				last: "modifier votre compte.",
+				voirConjugaison: "Vous voulez",
+			},
+
+			{
+				first: "Voici la liste de questions qu'elles",
+				reponse: "veulent",
+				last: "aborder.",
+				voirConjugaison: "Ils/Elles veulent",
+			},
+		],
+	},
 ];
 
 //  {
