@@ -35,6 +35,7 @@ body {
   background-color: var(--background-main);
   color: var(--typography-1);
 }
+/* MAIN APP CONTAINER DIV IN HTML INDEX */
 #root{
   height: 100vh;
   width: 100vw;
@@ -47,8 +48,9 @@ body {
 }
 
 
-
+/* STYLE FOR BUTTONS */
 .button {
+  font-size: 0.9rem;
   max-width: 200px;
   padding: 0.7rem;
   height: 2.5rem;
@@ -57,15 +59,21 @@ body {
   color: white;
   border-style: none;
   border-radius: 0.2rem;
-  box-shadow: -1px 0px 37px -12px rgba(0, 0, 0, 0.75);
+  box-shadow: -1px 0px 20px -12px rgba(0, 0, 0, 0.75);
   transition: all 0.5s ease;
 }
 .button:hover {
-  box-shadow: -1px 0px 37px -6px rgba(0, 0, 0, 0.68);
+  box-shadow: -1px 0px 25px -6px rgba(0, 0, 0, 0.75);
   cursor: pointer;
-  background-color: rgba(34, 95, 169, 0.9);
+  /* background-color: rgba(34, 95, 169, 0.9); */
 }
-/* STYLE FOR LISTS OF BUTTONS */
+/* reset for React Links to act alike buttons */
+.link {
+  display: block;
+}
+
+
+/* GENERAL CLASS FOR MAIN COMPONENTS */
 .app_body{
   padding: 1.5rem;
   height:calc(100vh - 4rem);
@@ -77,6 +85,8 @@ body {
     margin:0 auto;
   }
 }
+
+/* -----------------------------  */
 .navbar_list {
   padding: 0.5rem;
   height: 90%;

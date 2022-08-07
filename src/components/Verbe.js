@@ -68,18 +68,13 @@ const Verbe = () => {
 					)}
 				</div>
 				<div className="button_container">
-					<button
-						type="button"
-						className="button main-verbe__button"
-						onClick={checkAnswers}
-					>
+					<button type="button" className="button" onClick={checkAnswers}>
 						Vérifier les Réponses
 					</button>
-					<button type="button" className="button main-verbe__button">
-						<Link to={`/verbeconjugaison/${id}`} className="button">
-							Voir Conjugaison
-						</Link>
-					</button>
+
+					<Link to={`/verbeconjugaison/${id}`} className="button link">
+						Voir Conjugaison
+					</Link>
 				</div>
 			</article>
 		</Wrapper>
@@ -116,17 +111,12 @@ const Wrapper = styled.section`
 		width: 5rem;
 	}
 	.button_container {
+		padding: 0.5rem;
 		display: flex;
 		justify-content: space-around;
-		gap: 1rem;
-	}
-	.main-verbe__button {
-		margin-top: 3rem;
 	}
 	.wrong_answer {
 		border: 1px solid red;
-	}
-	button_container {
 	}
 	.main-verbe_result {
 		margin: 1rem;
