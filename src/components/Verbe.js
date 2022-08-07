@@ -70,14 +70,14 @@ const Verbe = () => {
 				</div>
 				<div className="button_container">
 					<button type="button" className="button" onClick={checkAnswers}>
-						Vérifier les Réponses
+						Vérifier
 					</button>
 
 					<Link to={`/verbeconjugaison/${id}`} className="button link">
-						Voir Conjugaison
+						Conjugaison
 					</Link>
 					<Link to={`/verbesmenu`} className="button link">
-						verbes
+						Verbes
 					</Link>
 				</div>
 			</article>
@@ -118,6 +118,7 @@ const Wrapper = styled.section`
 		padding: 0.5rem;
 		display: flex;
 		justify-content: space-around;
+		gap: 0.5rem;
 	}
 	.wrong_answer {
 		border: 0.5px solid red;

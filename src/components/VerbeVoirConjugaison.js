@@ -34,8 +34,10 @@ const Wrapper = styled.section`
 		align-items: center;
 	}
 	.conjugaison_container {
+		padding-top: 5rem;
+		height: 80%;
 		text-align: center;
-		margin: 4rem auto 4rem auto;
+		margin: 0 auto 4rem auto;
 	}
 	.conjugaison_container li {
 		margin-bottom: 0.5rem;
