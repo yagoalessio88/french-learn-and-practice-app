@@ -37,7 +37,8 @@ const Verbe = () => {
 			}
 			return false;
 		});
-		if ([...new Set(results)][0] === true) {
+		let resultsSet = [...new Set(results)];
+		if (resultsSet.length === 1 && resultsSet[0] === true) {
 			setAllRightAnswers(true);
 			setTimeout(() => {
 				setAllRightAnswers(false);
@@ -74,6 +75,9 @@ const Verbe = () => {
 
 					<Link to={`/verbeconjugaison/${id}`} className="button link">
 						Voir Conjugaison
+					</Link>
+					<Link to={`/verbesmenu`} className="button link">
+						verbes
 					</Link>
 				</div>
 			</article>
@@ -116,9 +120,9 @@ const Wrapper = styled.section`
 		justify-content: space-around;
 	}
 	.wrong_answer {
-		border: 1px solid red;
+		border: 0.5px solid red;
 	}
 	.main-verbe_result {
-		margin: 1rem;
+		margin-top: 2rem;
 	}
 `;

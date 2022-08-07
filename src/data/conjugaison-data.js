@@ -227,7 +227,7 @@ export const data = [
 
 			{
 				first: "Il est les meurtrier qu'ils",
-				reponse: "apellent",
+				reponse: "appellent",
 				last: '"Le Clairvoyant".',
 				voirConjugaison: "Ils/Elles appellent",
 			},
