@@ -22,7 +22,7 @@ const Verbe = () => {
 
 		const results = answers.map((item, index) => {
 			if (listUserValues[index] !== "") {
-				if (item.toUpperCase() === listUserValues[index].toUpperCase()) {
+				if (item.toUpperCase() === listUserValues[index].toUpperCase().trim()) {
 					const element = document.getElementById(index);
 					element.classList.remove("wrong_answer");
 					return true;
@@ -57,7 +57,12 @@ const Verbe = () => {
 							return (
 								<li className="main-verbe__li-element" key={index}>
 									{first}
-									<input className="text-input" id={index} type="text" />
+									<input
+										className="text-input"
+										id={index}
+										type="text"
+										autocomplete="off"
+									/>
 									{last}
 								</li>
 							);
