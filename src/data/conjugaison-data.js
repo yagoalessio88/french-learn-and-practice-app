@@ -1,39 +1,49 @@
 export const data = [
 	{
-		nombre: "",
+		nombre: "Arriver",
 		conjugaison: [
 			{
-				first: "Je",
-				reponse: "a",
+				first: "J'",
+				reponse: "arrive",
 				last: "",
-				voirConjugaison: "Je",
+				voirConjugaison: "J'arrive",
 			},
-			{ first: "Tu", reponse: "", last: "", voirConjugaison: "Tu" },
+			{
+				first: "Tu",
+				reponse: "arrives",
+				last: "",
+				voirConjugaison: "Tu arrives",
+			},
 			{
 				first: "Il",
-				reponse: "",
+				reponse: "arrive",
 				last: "",
-				voirConjugaison: "Il/Elle",
+				voirConjugaison: "Il/Elle arrive",
 			},
-			{ first: "On", reponse: "", last: "", voirConjugaison: "On" },
+			{
+				first: "On",
+				reponse: "arrive",
+				last: "",
+				voirConjugaison: "On arrive",
+			},
 			{
 				first: "Nous",
-				reponse: "",
+				reponse: "arrivons",
 				last: "",
-				voirConjugaison: "Nous",
+				voirConjugaison: "Nous arrivons",
 			},
 			{
 				first: "Vous",
-				reponse: "",
+				reponse: "arrivez",
 				last: "",
-				voirConjugaison: "Vous",
+				voirConjugaison: "Vous arrivez",
 			},
 
 			{
 				first: "Ils",
-				reponse: "",
+				reponse: "arrivent",
 				last: "",
-				voirConjugaison: "Ils/Elles",
+				voirConjugaison: "Ils/Elles arrivent",
 			},
 		],
 	},
@@ -463,49 +473,129 @@ export const data = [
 			},
 		],
 	},
+	{
+		nombre: "Aimer",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "aime",
+				last: "",
+				voirConjugaison: "J'aime",
+			},
+			{ first: "Tu", reponse: "aimes", last: "", voirConjugaison: "Tu aimes" },
+			{
+				first: "Il",
+				reponse: "aime",
+				last: "",
+				voirConjugaison: "Il/Elle aime",
+			},
+			{ first: "On", reponse: "aime", last: "", voirConjugaison: "On aime" },
+			{
+				first: "Nous",
+				reponse: "aimons",
+				last: "",
+				voirConjugaison: "Nous aimons",
+			},
+			{
+				first: "Vous",
+				reponse: "aimez",
+				last: "",
+				voirConjugaison: "Vous aimez",
+			},
+
+			{
+				first: "Ils",
+				reponse: "aiment",
+				last: "",
+				voirConjugaison: "Ils/Elles aiment",
+			},
+		],
+	},
+	{
+		nombre: "Arrêter",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "arrête",
+				last: "",
+				voirConjugaison: "Je arrête",
+			},
+			{
+				first: "Tu",
+				reponse: "arrêtes",
+				last: "",
+				voirConjugaison: "Tu arrêtes",
+			},
+			{
+				first: "Il",
+				reponse: "arrête",
+				last: "",
+				voirConjugaison: "Il/Elle arrête",
+			},
+			{
+				first: "On",
+				reponse: "arrête",
+				last: "",
+				voirConjugaison: "On arrête",
+			},
+			{
+				first: "Nous",
+				reponse: "arrêtons",
+				last: "",
+				voirConjugaison: "Nous arrêtons",
+			},
+			{
+				first: "Vous",
+				reponse: "arrêtez",
+				last: "",
+				voirConjugaison: "Vous arrêtez",
+			},
+
+			{
+				first: "Ils",
+				reponse: "arrêtent",
+				last: "",
+				voirConjugaison: "Ils/Elles arrêtent",
+			},
+		],
+	},
 ];
 
-//  {
-//     nombre: "",
-//     conjugaison: [
-//       {
-//         first: "",
-//         reponse: "a",
-//         last: "",
-//         voirConjugaison: "Je",
-//       },
-//       { first: "",
-//       reponse: "",
-//       last: "",
-//       voirConjugaison: "Tu",},
-//       {
-//         first: "",
-//         reponse: "",
-//         last: "",
-//         voirConjugaison: "Il/Elle",
-//       },
-//       { first: "",
-//       reponse: "",
-//       last: "",
-//       voirConjugaison: "On", },
-//       {
-//         first: "",
-//         reponse: "",
-//         last: "",
-//         voirConjugaison: "Nous",
-//       },
-//       {
-//         first: "",
-//         reponse: "",
-//         last: "",
-//         voirConjugaison: "Vous",
-//       },
+// {
+// 	nombre: "",
+// 	conjugaison: [
+// 		{
+// 			first: "Je",
+// 			reponse: "a",
+// 			last: "",
+// 			voirConjugaison: "Je",
+// 		},
+// 		{ first: "Tu", reponse: "", last: "", voirConjugaison: "Tu" },
+// 		{
+// 			first: "Il",
+// 			reponse: "",
+// 			last: "",
+// 			voirConjugaison: "Il/Elle",
+// 		},
+// 		{ first: "On", reponse: "", last: "", voirConjugaison: "On" },
+// 		{
+// 			first: "Nous",
+// 			reponse: "",
+// 			last: "",
+// 			voirConjugaison: "Nous",
+// 		},
+// 		{
+// 			first: "Vous",
+// 			reponse: "",
+// 			last: "",
+// 			voirConjugaison: "Vous",
+// 		},
 
-//       {
-//         first: "",
-//         reponse: "",
-//         last: "",
-//         voirConjugaison: "Ils/Elles",
-//       },
-//     ],
-//   },
+// 		{
+// 			first: "Ils",
+// 			reponse: "",
+// 			last: "",
+// 			voirConjugaison: "Ils/Elles",
+// 		},
+// 	],
+// },

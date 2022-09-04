@@ -76,7 +76,6 @@ body {
 
 /* GENERAL CLASS FOR MAIN COMPONENTS */
 .app_body{
-  border: 1px solid red;
   height:calc(100vh - 4rem);
   padding: 1.5rem;
   overflow-y: scroll;
