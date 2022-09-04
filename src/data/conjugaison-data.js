@@ -1,5 +1,43 @@
 export const data = [
 	{
+		nombre: "",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "a",
+				last: "",
+				voirConjugaison: "Je",
+			},
+			{ first: "Tu", reponse: "", last: "", voirConjugaison: "Tu" },
+			{
+				first: "Il",
+				reponse: "",
+				last: "",
+				voirConjugaison: "Il/Elle",
+			},
+			{ first: "On", reponse: "", last: "", voirConjugaison: "On" },
+			{
+				first: "Nous",
+				reponse: "",
+				last: "",
+				voirConjugaison: "Nous",
+			},
+			{
+				first: "Vous",
+				reponse: "",
+				last: "",
+				voirConjugaison: "Vous",
+			},
+
+			{
+				first: "Ils",
+				reponse: "",
+				last: "",
+				voirConjugaison: "Ils/Elles",
+			},
+		],
+	},
+	{
 		nombre: "Être",
 		conjugaison: [
 			{
@@ -43,7 +81,7 @@ export const data = [
 		],
 	},
 	{
-		nombre: "aller",
+		nombre: "Aller",
 		conjugaison: [
 			{
 				first: "Je",
@@ -90,7 +128,7 @@ export const data = [
 		],
 	},
 	{
-		nombre: "avoir",
+		nombre: "Avoir",
 		conjugaison: [
 			{
 				first: "Aujourd'hui j'",

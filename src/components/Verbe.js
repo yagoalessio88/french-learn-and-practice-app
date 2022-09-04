@@ -49,41 +49,43 @@ const Verbe = () => {
 	return (
 		<Wrapper>
 			<article className="app_body main-verbe">
-				<h3 className="main-verbe__title">{id}</h3>
-				<div className="main-verbe-ul_parent">
-					<ul className="main-verbe_ul">
-						{conjugaison.map((item, index) => {
-							const { first, last } = item;
-							return (
-								<li className="main-verbe__li-element" key={index}>
-									{first}
-									<input
-										className="text-input"
-										id={index}
-										type="text"
-										autocomplete="off"
-									/>
-									{last}
-								</li>
-							);
-						})}
-					</ul>
+				<div className="section-container">
+					<h3 className="main-verbe__title">{id}</h3>
+					<div className="main-verbe-ul_parent">
+						<ul className="main-verbe_ul">
+							{conjugaison.map((item, index) => {
+								const { first, last } = item;
+								return (
+									<li className="main-verbe__li-element" key={index}>
+										{first}
+										<input
+											className="text-input"
+											id={index}
+											type="text"
+											autoComplete="off"
+										/>
+										{last}
+									</li>
+								);
+							})}
+						</ul>
 
-					{allRightAnswers && (
-						<h2 className="main-verbe_result">Félicitations!!</h2>
-					)}
-				</div>
-				<div className="button_container">
-					<button type="button" className="button" onClick={checkAnswers}>
-						Vérifier
-					</button>
+						{allRightAnswers && (
+							<h2 className="main-verbe_result">Félicitations!!</h2>
+						)}
+					</div>
+					<div className="button_container">
+						<button type="button" className="button" onClick={checkAnswers}>
+							Vérifier
+						</button>
 
-					<Link to={`/verbeconjugaison/${id}`} className="button link">
-						Conjugaison
-					</Link>
-					<Link to={`/verbesmenu`} className="button link">
-						Verbes
-					</Link>
+						<Link to={`/verbeconjugaison/${id}`} className="button link">
+							Conjugaison
+						</Link>
+						<Link to={`/verbesmenu`} className="button link">
+							Verbes
+						</Link>
+					</div>
 				</div>
 			</article>
 		</Wrapper>
@@ -130,5 +132,11 @@ const Wrapper = styled.section`
 	}
 	.main-verbe_result {
 		margin-top: 2rem;
+	}
+	@media screen and (min-width: 700px) {
+		.section-container {
+			width: 50%;
+			margin: 0 auto;
+		}
 	}
 `;

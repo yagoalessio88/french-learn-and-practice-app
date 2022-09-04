@@ -34,6 +34,7 @@ body {
   overflow-x: hidden;
   background-color: var(--background-main);
   color: var(--typography-1);
+ 
 }
 /* MAIN APP CONTAINER DIV IN HTML INDEX */
 #root{
@@ -75,16 +76,14 @@ body {
 
 /* GENERAL CLASS FOR MAIN COMPONENTS */
 .app_body{
-  padding: 1.5rem;
+  border: 1px solid red;
   height:calc(100vh - 4rem);
+  padding: 1.5rem;
+  overflow-y: scroll;
   width: 100%;
 }
-@media screen and (min-width:700px) {
-  .app_body{
-    width: 60%;
-    margin:0 auto;
-  }
-}
+
+
 
 /* -----------------------------  */
 .navbar_list {
