@@ -1,3 +1,4 @@
+import React from "react";
 import styled from "styled-components";
 import { data } from "../data/conjugaison-data.js";
 import { useParams } from "react-router-dom";
