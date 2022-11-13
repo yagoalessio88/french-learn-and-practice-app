@@ -1,4 +1,6 @@
 export const data = [
+	
+	
 	{
 		nombre: "Atteindre",
 		conjugaison: [
@@ -695,6 +697,1197 @@ export const data = [
 		],
 	},
 	{
+		nombre: "Boire",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "bois",
+				last: "",
+				voirConjugaison: "Je bois",
+			},
+			{ first: "Tu", reponse: "bois", last: "", voirConjugaison: "Tu bois" },
+			{
+				first: "Il",
+				reponse: "boit",
+				last: "",
+				voirConjugaison: "Il/Elle boit",
+			},
+			{ first: "On", reponse: "boit", last: "", voirConjugaison: "On boit" },
+			{
+				first: "Nous",
+				reponse: "buvons",
+				last: "",
+				voirConjugaison: "Nous buvons",
+			},
+			{
+				first: "Vous",
+				reponse: "buvez",
+				last: "",
+				voirConjugaison: "Vous buvez",
+			},
+	
+			{
+				first: "Ils",
+				reponse: "boivent",
+				last: "",
+				voirConjugaison: "Ils/Elles boivent",
+			},
+		],
+	},
+	{
+		nombre: "Brider",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "bride",
+				last: "",
+				voirConjugaison: "Je bride",
+			},
+			{ first: "Tu", reponse: "brides", last: "", voirConjugaison: "Tu brides" },
+			{
+				first: "Il",
+				reponse: "bride",
+				last: "",
+				voirConjugaison: "Il/Elle bride",
+			},
+			{ first: "On", reponse: "bride", last: "", voirConjugaison: "On bride" },
+			{
+				first: "Nous",
+				reponse: "bridons",
+				last: "",
+				voirConjugaison: "Nous bridons",
+			},
+			{
+				first: "Vous",
+				reponse: "bridez",
+				last: "",
+				voirConjugaison: "Vous bridez",
+			},
+	
+			{
+				first: "Ils",
+				reponse: "brident",
+				last: "",
+				voirConjugaison: "Ils/Elles brident",
+			},
+		],
+	},
+	{
+		nombre: "Bouger",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "bouge",
+				last: "",
+				voirConjugaison: "Je bouge",
+			},
+			{ first: "Tu", reponse: "bouges", last: "", voirConjugaison: "Tu bouges" },
+			{
+				first: "Il",
+				reponse: "bouge",
+				last: "",
+				voirConjugaison: "Il/Elle bouge",
+			},
+			{ first: "On", reponse: "", last: "bouge", voirConjugaison: "On bouge" },
+			{
+				first: "Nous",
+				reponse: "bougeons",
+				last: "",
+				voirConjugaison: "Nous bougeons",
+			},
+			{
+				first: "Vous",
+				reponse: "bougez",
+				last: "",
+				voirConjugaison: "Vous bougez",
+			},
+	
+			{
+				first: "Ils",
+				reponse: "bougent",
+				last: "",
+				voirConjugaison: "Ils/Elles bougent",
+			},
+		],
+	},
+	{
+		nombre: "Changer",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "change",
+				last: "",
+				voirConjugaison: "Je change",
+			},
+			{ first: "Tu", reponse: "changes", last: "", voirConjugaison: "Tu changes" },
+			{
+				first: "Il",
+				reponse: "change",
+				last: "",
+				voirConjugaison: "Il/Elle change",
+			},
+			{ first: "On", reponse: "change", last: "", voirConjugaison: "On change" },
+			{
+				first: "Nous",
+				reponse: "changeons",
+				last: "",
+				voirConjugaison: "Nous changeons",
+			},
+			{
+				first: "Vous",
+				reponse: "changez",
+				last: "",
+				voirConjugaison: "Vous changez",
+			},
+	
+			{
+				first: "Ils",
+				reponse: "changent",
+				last: "",
+				voirConjugaison: "Ils/Elles changent",
+			},
+		],
+	},
+	{
+		nombre: "Choisir",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "choisis",
+				last: "",
+				voirConjugaison: "Je choisis",
+			},
+			{ first: "Tu", reponse: "", last: "choisis", voirConjugaison: "Tu choisis" },
+			{
+				first: "Il",
+				reponse: "choisit",
+				last: "",
+				voirConjugaison: "Il/Elle choisit",
+			},
+			{ first: "On", reponse: "choisit", last: "", voirConjugaison: "On choisit" },
+			{
+				first: "Nous",
+				reponse: "choisissons",
+				last: "",
+				voirConjugaison: "Nous choisissons",
+			},
+			{
+				first: "Vous",
+				reponse: "choisissez",
+				last: "",
+				voirConjugaison: "Vous choisissez",
+			},
+	
+			{
+				first: "Ils",
+				reponse: "choisissent",
+				last: "",
+				voirConjugaison: "Ils/Elles choisissent",
+			},
+		],
+	},
+	{
+		nombre: "Croir",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "crois",
+				last: "",
+				voirConjugaison: "Je crois",
+			},
+			{ first: "Tu", reponse: "crois", last: "", voirConjugaison: "Tu crois" },
+			{
+				first: "Il",
+				reponse: "croit",
+				last: "",
+				voirConjugaison: "Il/Elle croit",
+			},
+			{ first: "On", reponse: "croit", last: "", voirConjugaison: "On croit" },
+			{
+				first: "Nous",
+				reponse: "croyons",
+				last: "",
+				voirConjugaison: "Nous croyons",
+			},
+			{
+				first: "Vous",
+				reponse: "croyez",
+				last: "",
+				voirConjugaison: "Vous croyez",
+			},
+			{
+				first: "Ils",
+				reponse: "croient",
+				last: "",
+				voirConjugaison: "Ils/Elles croient",
+			},
+		],
+	},
+	{
+		nombre: "Commander",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "commande",
+				last: "",
+				voirConjugaison: "Je commande",
+			},
+			{ first: "Tu", reponse: "commandes", last: "", voirConjugaison: "Tu commandes" },
+			{
+				first: "Il",
+				reponse: "commande",
+				last: "",
+				voirConjugaison: "Il/Elle commande",
+			},
+			{ first: "On", reponse: "commande", last: "", voirConjugaison: "On commande" },
+			{
+				first: "Nous",
+				reponse: "commandons",
+				last: "",
+				voirConjugaison: "Nous commandons",
+			},
+			{
+				first: "Vous",
+				reponse: "commandez",
+				last: "",
+				voirConjugaison: "Vous commandez",
+			},
+			{
+				first: "Ils",
+				reponse: "commandent",
+				last: "",
+				voirConjugaison: "Ils/Elles commandent",
+			},
+		],
+	},
+	{
+		nombre: "Cliquer",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "clique",
+				last: "",
+				voirConjugaison: "Je clique",
+			},
+			{ first: "Tu", reponse: "cliques", last: "", voirConjugaison: "Tu cliques" },
+			{
+				first: "Il",
+				reponse: "clique",
+				last: "",
+				voirConjugaison: "Il/Elle clique",
+			},
+			{ first: "On", reponse: "clique", last: "", voirConjugaison: "On clique" },
+			{
+				first: "Nous",
+				reponse: "cliquons",
+				last: "",
+				voirConjugaison: "Nous cliquons",
+			},
+			{
+				first: "Vous",
+				reponse: "cliquez",
+				last: "",
+				voirConjugaison: "Vous cliquez",
+			},
+			{
+				first: "Ils",
+				reponse: "cliquent",
+				last: "",
+				voirConjugaison: "Ils/Elles ciquent",
+			},
+		],
+	},
+	{
+		nombre: "Cacher",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "cache",
+				last: "",
+				voirConjugaison: "Je cache",
+			},
+			{ first: "Tu", reponse: "caches", last: "", voirConjugaison: "Tu caches" },
+			{
+				first: "Il",
+				reponse: "cache",
+				last: "",
+				voirConjugaison: "Il/Elle cache",
+			},
+			{ first: "On", reponse: "cache", last: "", voirConjugaison: "On cache" },
+			{
+				first: "Nous",
+				reponse: "cachons",
+				last: "",
+				voirConjugaison: "Nous cachons",
+			},
+			{
+				first: "Vous",
+				reponse: "cachez",
+				last: "",
+				voirConjugaison: "Vous cachez",
+			},
+			{
+				first: "Ils",
+				reponse: "cachent",
+				last: "",
+				voirConjugaison: "Ils/Elles cachent",
+			},
+		],
+	},
+	{
+		nombre: "Couper",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "coupe",
+				last: "",
+				voirConjugaison: "Je coupe",
+			},
+			{ first: "Tu", reponse: "coupes", last: "", voirConjugaison: "Tu coupes" },
+			{
+				first: "Il",
+				reponse: "coupe",
+				last: "",
+				voirConjugaison: "Il/Elle coupe",
+			},
+			{ first: "On", reponse: "coupe", last: "", voirConjugaison: "On coupe" },
+			{
+				first: "Nous",
+				reponse: "coupons",
+				last: "",
+				voirConjugaison: "Nous coupons",
+			},
+			{
+				first: "Vous",
+				reponse: "coupez",
+				last: "",
+				voirConjugaison: "Vous coupez",
+			},
+			{
+				first: "Ils",
+				reponse: "coupent",
+				last: "",
+				voirConjugaison: "Ils/Elles coupent",
+			},
+		],
+	},
+	{
+		nombre: "Coller",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "colle",
+				last: "",
+				voirConjugaison: "Je colle",
+			},
+			{ first: "Tu", reponse: "colles", last: "", voirConjugaison: "Tu colles" },
+			{
+				first: "Il",
+				reponse: "colle",
+				last: "",
+				voirConjugaison: "Il/Elle colle",
+			},
+			{ first: "On", reponse: "colle", last: "", voirConjugaison: "On colle" },
+			{
+				first: "Nous",
+				reponse: "collons",
+				last: "",
+				voirConjugaison: "Nous collons",
+			},
+			{
+				first: "Vous",
+				reponse: "collez",
+				last: "",
+				voirConjugaison: "Vous collez",
+			},
+			{
+				first: "Ils",
+				reponse: "collent",
+				last: "",
+				voirConjugaison: "Ils/Elles collent",
+			},
+		],
+	},
+	{
+		nombre: "Consulter",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "consulte",
+				last: "",
+				voirConjugaison: "Je consulte",
+			},
+			{ first: "Tu", reponse: "consultes", last: "", voirConjugaison: "Tu consultes" },
+			{
+				first: "Il",
+				reponse: "consulte",
+				last: "",
+				voirConjugaison: "Il/Elle consulte",
+			},
+			{ first: "On", reponse: "consulte", last: "", voirConjugaison: "On consulte" },
+			{
+				first: "Nous",
+				reponse: "consultons",
+				last: "",
+				voirConjugaison: "Nous consultons",
+			},
+			{
+				first: "Vous",
+				reponse: "consultez",
+				last: "",
+				voirConjugaison: "Vous consultez",
+			},
+			{
+				first: "Ils",
+				reponse: "consultent",
+				last: "",
+				voirConjugaison: "Ils/Elles consultent",
+			},
+		],
+	},
+	{
+		nombre: "Cerner",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "cerne",
+				last: "",
+				voirConjugaison: "Je cerne",
+			},
+			{ first: "Tu", reponse: "cernes", last: "", voirConjugaison: "Tu cernes" },
+			{
+				first: "Il",
+				reponse: "cerne",
+				last: "",
+				voirConjugaison: "Il/Elle cerne",
+			},
+			{ first: "On", reponse: "cerne", last: "", voirConjugaison: "On cerne" },
+			{
+				first: "Nous",
+				reponse: "cernons",
+				last: "",
+				voirConjugaison: "Nous cernons",
+			},
+			{
+				first: "Vous",
+				reponse: "cernez",
+				last: "",
+				voirConjugaison: "Vous cernez",
+			},
+			{
+				first: "Ils",
+				reponse: "cernent",
+				last: "",
+				voirConjugaison: "Ils/Elles cernent",
+			},
+		],
+	},
+	{
+		nombre: "Copier",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "copie",
+				last: "",
+				voirConjugaison: "Je copie",
+			},
+			{ first: "Tu", reponse: "copies", last: "", voirConjugaison: "Tu copies" },
+			{
+				first: "Il",
+				reponse: "copie",
+				last: "",
+				voirConjugaison: "Il/Elle copie",
+			},
+			{ first: "On", reponse: "copie", last: "", voirConjugaison: "On copie" },
+			{
+				first: "Nous",
+				reponse: "copions",
+				last: "",
+				voirConjugaison: "Nous copions",
+			},
+			{
+				first: "Vous",
+				reponse: "copiez",
+				last: "",
+				voirConjugaison: "Vous copiez",
+			},
+			{
+				first: "Ils",
+				reponse: "copient",
+				last: "",
+				voirConjugaison: "Ils/Elles copient",
+			},
+		],
+	},
+	{
+		nombre: "Configurer",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "configure",
+				last: "",
+				voirConjugaison: "Je configure",
+			},
+			{ first: "Tu", reponse: "configures", last: "", voirConjugaison: "Tu configures" },
+			{
+				first: "Il",
+				reponse: "configure",
+				last: "",
+				voirConjugaison: "Il/Elle configure",
+			},
+			{ first: "On", reponse: "configure", last: "", voirConjugaison: "On configure" },
+			{
+				first: "Nous",
+				reponse: "configurons",
+				last: "",
+				voirConjugaison: "Nous configurons",
+			},
+			{
+				first: "Vous",
+				reponse: "configurez",
+				last: "",
+				voirConjugaison: "Vous configurez",
+			},
+			{
+				first: "Ils",
+				reponse: "configurent",
+				last: "",
+				voirConjugaison: "Ils/Elles configurent",
+			},
+		],
+	},
+	{
+		nombre: "Construire",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "construis",
+				last: "",
+				voirConjugaison: "Je construis",
+			},
+			{ first: "Tu", reponse: "construis", last: "", voirConjugaison: "Tu construis" },
+			{
+				first: "Il",
+				reponse: "construit",
+				last: "",
+				voirConjugaison: "Il/Elle construit",
+			},
+			{ first: "On", reponse: "construit", last: "", voirConjugaison: "On construit" },
+			{
+				first: "Nous",
+				reponse: "construisons",
+				last: "",
+				voirConjugaison: "Nous construisons",
+			},
+			{
+				first: "Vous",
+				reponse: "construisez",
+				last: "",
+				voirConjugaison: "Vous construisez",
+			},
+			{
+				first: "Ils",
+				reponse: "construisent",
+				last: "",
+				voirConjugaison: "Ils/Elles construisent",
+			},
+		],
+	},
+	{
+		nombre: "Créer",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "crée",
+				last: "",
+				voirConjugaison: "Je crée",
+			},
+			{ first: "Tu", reponse: "crées", last: "", voirConjugaison: "Tu crées" },
+			{
+				first: "Il",
+				reponse: "crée",
+				last: "",
+				voirConjugaison: "Il/Elle crée",
+			},
+			{ first: "On", reponse: "crée", last: "", voirConjugaison: "On crée" },
+			{
+				first: "Nous",
+				reponse: "créons",
+				last: "",
+				voirConjugaison: "Nous créons",
+			},
+			{
+				first: "Vous",
+				reponse: "créez",
+				last: "",
+				voirConjugaison: "Vous créez",
+			},
+			{
+				first: "Ils",
+				reponse: "créent",
+				last: "",
+				voirConjugaison: "Ils/Elles créent",
+			},
+		],
+	},
+	{
+		nombre: "Calculer",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "calcule",
+				last: "",
+				voirConjugaison: "Je calcule",
+			},
+			{ first: "Tu", reponse: "calcules", last: "", voirConjugaison: "Tu calcules" },
+			{
+				first: "Il",
+				reponse: "calcule",
+				last: "",
+				voirConjugaison: "Il/Elle calcule",
+			},
+			{ first: "On", reponse: "calcule", last: "", voirConjugaison: "On calcule" },
+			{
+				first: "Nous",
+				reponse: "calculons",
+				last: "",
+				voirConjugaison: "Nous calculons",
+			},
+			{
+				first: "Vous",
+				reponse: "calculez",
+				last: "",
+				voirConjugaison: "Vous calculez",
+			},
+			{
+				first: "Ils",
+				reponse: "calculent",
+				last: "",
+				voirConjugaison: "Ils/Elles calculent",
+			},
+		],
+	},
+	{
+		nombre: "Causer",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "cause",
+				last: "",
+				voirConjugaison: "Je cause",
+			},
+			{ first: "Tu", reponse: "causes", last: "", voirConjugaison: "Tu causes" },
+			{
+				first: "Il",
+				reponse: "cause",
+				last: "",
+				voirConjugaison: "Il/Elle cause",
+			},
+			{ first: "On", reponse: "cause", last: "", voirConjugaison: "On cause" },
+			{
+				first: "Nous",
+				reponse: "causons",
+				last: "",
+				voirConjugaison: "Nous causons",
+			},
+			{
+				first: "Vous",
+				reponse: "causez",
+				last: "",
+				voirConjugaison: "Vous causez",
+			},
+			{
+				first: "Ils",
+				reponse: "causent",
+				last: "",
+				voirConjugaison: "Ils/Elles causent",
+			},
+		],
+	},
+	{
+		nombre: "Commencer",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "commence",
+				last: "",
+				voirConjugaison: "Je commence",
+			},
+			{ first: "Tu", reponse: "commences", last: "", voirConjugaison: "Tu commences" },
+			{
+				first: "Il",
+				reponse: "commence",
+				last: "",
+				voirConjugaison: "Il/Elle commence",
+			},
+			{ first: "On", reponse: "commence", last: "", voirConjugaison: "On commence" },
+			{
+				first: "Nous",
+				reponse: "commençons",
+				last: "",
+				voirConjugaison: "Nous commençons",
+			},
+			{
+				first: "Vous",
+				reponse: "commencez",
+				last: "",
+				voirConjugaison: "Vous commencez",
+			},
+	
+			{
+				first: "Ils",
+				reponse: "commencent",
+				last: "",
+				voirConjugaison: "Ils/Elles commencent",
+			},
+		],
+	},
+	{
+		nombre: "Chercher",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "cherche",
+				last: "",
+				voirConjugaison: "Je cherche",
+			},
+			{ first: "Tu", reponse: "cherches", last: "", voirConjugaison: "Tu cherches" },
+			{
+				first: "Il",
+				reponse: "cherche",
+				last: "",
+				voirConjugaison: "Il/Elle cherche",
+			},
+			{ first: "On", reponse: "cherche", last: "", voirConjugaison: "On cherche" },
+			{
+				first: "Nous",
+				reponse: "cherchons",
+				last: "",
+				voirConjugaison: "Nous cherchons",
+			},
+			{
+				first: "Vous",
+				reponse: "cherchez",
+				last: "",
+				voirConjugaison: "Vous cherchez",
+			},
+			{
+				first: "Ils",
+				reponse: "cherchent",
+				last: "",
+				voirConjugaison: "Ils/Elles cherchent",
+			},
+		],
+	},
+	{
+		nombre: "Comprendre",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "comprends",
+				last: "",
+				voirConjugaison: "Je comprends",
+			},
+			{ first: "Tu", reponse: "comprends", last: "", voirConjugaison: "Tu comprends" },
+			{
+				first: "Il",
+				reponse: "cromprend",
+				last: "",
+				voirConjugaison: "Il/Elle comprend",
+			},
+			{ first: "On", reponse: "cromprend", last: "", voirConjugaison: "On comprend" },
+			{
+				first: "Nous",
+				reponse: "comprenons",
+				last: "",
+				voirConjugaison: "Nous comprenons",
+			},
+			{
+				first: "Vous",
+				reponse: "comprenez",
+				last: "",
+				voirConjugaison: "Vous comprenez",
+			},
+			{
+				first: "Ils",
+				reponse: "comprennent",
+				last: "",
+				voirConjugaison: "Ils/Elles comprennent",
+			},
+		],
+	},
+	{
+		nombre: "Connaître",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "connais",
+				last: "",
+				voirConjugaison: "Je connais",
+			},
+			{ first: "Tu", reponse: "connais", last: "", voirConjugaison: "Tu connais" },
+			{
+				first: "Il",
+				reponse: "connaît",
+				last: "",
+				voirConjugaison: "Il/Elle connaît",
+			},
+			{ first: "On", reponse: "connaît", last: "", voirConjugaison: "On connaît" },
+			{
+				first: "Nous",
+				reponse: "connaissons",
+				last: "",
+				voirConjugaison: "Nous connaissons",
+			},
+			{
+				first: "Vous",
+				reponse: "connaissez",
+				last: "",
+				voirConjugaison: "Vous connaissez",
+			},
+			{
+				first: "Ils",
+				reponse: "connaissent",
+				last: "",
+				voirConjugaison: "Ils/Elles connaissent",
+			},
+		],
+	},
+	{
+		nombre: "Devoir",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "dois",
+				last: "",
+				voirConjugaison: "Je dois",
+			},
+			{ first: "Tu", reponse: "dois", last: "", voirConjugaison: "Tu dois" },
+			{
+				first: "Il",
+				reponse: "doit",
+				last: "",
+				voirConjugaison: "Il/Elle doit",
+			},
+			{ first: "On", reponse: "doit", last: "", voirConjugaison: "On doit" },
+			{
+				first: "Nous",
+				reponse: "devons",
+				last: "",
+				voirConjugaison: "Nous devons",
+			},
+			{
+				first: "Vous",
+				reponse: "devez",
+				last: "",
+				voirConjugaison: "Vous devez",
+			},
+			{
+				first: "Ils",
+				reponse: "doivent",
+				last: "",
+				voirConjugaison: "Ils/Elles doivent",
+			},
+		],
+	},
+	{
+		nombre: "Dormir",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "dors",
+				last: "",
+				voirConjugaison: "Je dors",
+			},
+			{ first: "Tu", reponse: "dors", last: "", voirConjugaison: "Tu dors" },
+			{
+				first: "Il",
+				reponse: "dort",
+				last: "",
+				voirConjugaison: "Il/Elle dort",
+			},
+			{ first: "On", reponse: "dort", last: "", voirConjugaison: "On dort" },
+			{
+				first: "Nous",
+				reponse: "dormons",
+				last: "",
+				voirConjugaison: "Nous dormons",
+			},
+			{
+				first: "Vous",
+				reponse: "dormez",
+				last: "",
+				voirConjugaison: "Vous dormez",
+			},
+			{
+				first: "Ils",
+				reponse: "dorment",
+				last: "",
+				voirConjugaison: "Ils/Elles dorment",
+			},
+		],
+	},
+	{
+		nombre: "Donner",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "donne",
+				last: "",
+				voirConjugaison: "Je donne",
+			},
+			{ first: "Tu", reponse: "donnes", last: "", voirConjugaison: "Tu donnes" },
+			{
+				first: "Il",
+				reponse: "donne",
+				last: "",
+				voirConjugaison: "Il/Elle donne",
+			},
+			{ first: "On", reponse: "donne", last: "", voirConjugaison: "On donne" },
+			{
+				first: "Nous",
+				reponse: "donnons",
+				last: "",
+				voirConjugaison: "Nous donnons",
+			},
+			{
+				first: "Vous",
+				reponse: "donnez",
+				last: "",
+				voirConjugaison: "Vous donnez",
+			},
+			{
+				first: "Ils",
+				reponse: "donnent",
+				last: "",
+				voirConjugaison: "Ils/Elles donnent",
+			},
+		],
+	},
+	{
+		nombre: "Devenir",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "deviens",
+				last: "",
+				voirConjugaison: "Je deviens",
+			},
+			{ first: "Tu", reponse: "deviens", last: "", voirConjugaison: "Tu deviens" },
+			{
+				first: "Il",
+				reponse: "devient",
+				last: "",
+				voirConjugaison: "Il/Elle devient",
+			},
+			{ first: "On", reponse: "devient", last: "", voirConjugaison: "On devient" },
+			{
+				first: "Nous",
+				reponse: "devenons",
+				last: "",
+				voirConjugaison: "Nous devenons",
+			},
+			{
+				first: "Vous",
+				reponse: "devenez",
+				last: "",
+				voirConjugaison: "Vous devenez",
+			},
+			{
+				first: "Ils",
+				reponse: "deviennent",
+				last: "",
+				voirConjugaison: "Ils/Elles deviennent",
+			},
+		],
+	},
+	{
+		nombre: "Démarrer",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "démarre",
+				last: "",
+				voirConjugaison: "Je démarre",
+			},
+			{ first: "Tu", reponse: "démarres", last: "", voirConjugaison: "Tu démarres" },
+			{
+				first: "Il",
+				reponse: "démarre",
+				last: "",
+				voirConjugaison: "Il/Elle démarre",
+			},
+			{ first: "On", reponse: "démarre", last: "", voirConjugaison: "On démarre" },
+			{
+				first: "Nous",
+				reponse: "démarrons",
+				last: "",
+				voirConjugaison: "Nous démarrons",
+			},
+			{
+				first: "Vous",
+				reponse: "démarrez",
+				last: "",
+				voirConjugaison: "Vous démarrez",
+			},
+			{
+				first: "Ils",
+				reponse: "démarrent",
+				last: "",
+				voirConjugaison: "Ils/Elles démarrent",
+			},
+		],
+	},
+	{
+		nombre: "Décaler",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "décale",
+				last: "",
+				voirConjugaison: "Je décale",
+			},
+			{ first: "Tu", reponse: "décales", last: "", voirConjugaison: "Tu décales" },
+			{
+				first: "Il",
+				reponse: "décale",
+				last: "",
+				voirConjugaison: "Il/Elle décale",
+			},
+			{ first: "On", reponse: "décale", last: "", voirConjugaison: "On décale" },
+			{
+				first: "Nous",
+				reponse: "décalons",
+				last: "",
+				voirConjugaison: "Nous décalons",
+			},
+			{
+				first: "Vous",
+				reponse: "décalez",
+				last: "",
+				voirConjugaison: "Vous décalez",
+			},
+			{
+				first: "Ils",
+				reponse: "décalent",
+				last: "",
+				voirConjugaison: "Ils/Elles décalent",
+			},
+		],
+	},
+	{
+		nombre: "Dominer",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "domine",
+				last: "",
+				voirConjugaison: "Je domine",
+			},
+			{ first: "Tu", reponse: "domines", last: "", voirConjugaison: "Tu domines" },
+			{
+				first: "Il",
+				reponse: "domine",
+				last: "",
+				voirConjugaison: "Il/Elle domine",
+			},
+			{ first: "On", reponse: "domine", last: "", voirConjugaison: "On domine" },
+			{
+				first: "Nous",
+				reponse: "dominons",
+				last: "",
+				voirConjugaison: "Nous dominons",
+			},
+			{
+				first: "Vous",
+				reponse: "dominez",
+				last: "",
+				voirConjugaison: "Vous dominez",
+			},
+			{
+				first: "Ils",
+				reponse: "dominent",
+				last: "",
+				voirConjugaison: "Ils/Elles dominent",
+			},
+		],
+	},
+	{
+		nombre: "Demander",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "demande",
+				last: "",
+				voirConjugaison: "Je demande",
+			},
+			{ first: "Tu", reponse: "demandes", last: "", voirConjugaison: "Tu demandes" },
+			{
+				first: "Il",
+				reponse: "demande",
+				last: "",
+				voirConjugaison: "Il/Elle demande",
+			},
+			{ first: "On", reponse: "demande", last: "", voirConjugaison: "On demande" },
+			{
+				first: "Nous",
+				reponse: "demandons",
+				last: "",
+				voirConjugaison: "Nous demandons",
+			},
+			{
+				first: "Vous",
+				reponse: "demandez",
+				last: "",
+				voirConjugaison: "Vous demandez",
+			},
+			{
+				first: "Ils",
+				reponse: "demandent",
+				last: "",
+				voirConjugaison: "Ils/Elles demandent",
+			},
+		],
+	},
+	{
+		nombre: "Dégager",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "dégage",
+				last: "",
+				voirConjugaison: "Je dégage",
+			},
+			{ first: "Tu", reponse: "dégages", last: "", voirConjugaison: "Tu dégages" },
+			{
+				first: "Il",
+				reponse: "dégage",
+				last: "",
+				voirConjugaison: "Il/Elle dégage",
+			},
+			{ first: "On", reponse: "dégage", last: "", voirConjugaison: "On dégage" },
+			{
+				first: "Nous",
+				reponse: "dégageons",
+				last: "",
+				voirConjugaison: "Nous dégageons",
+			},
+			{
+				first: "Vous",
+				reponse: "dégagez",
+				last: "",
+				voirConjugaison: "Vous dégagez",
+			},
+			{
+				first: "Ils",
+				reponse: "dégagent",
+				last: "",
+				voirConjugaison: "Ils/Elles dégagent",
+			},
+		],
+	},
+
+	{
 		nombre: "Dire",
 		conjugaison: [
 			{
@@ -742,6 +1935,192 @@ export const data = [
 			},
 		],
 	},
+	{
+		nombre: "Envoyer",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "envoie",
+				last: "",
+				voirConjugaison: "J'envoie",
+			},
+			{ first: "Tu", reponse: "envoies", last: "", voirConjugaison: "Tu envoies" },
+			{
+				first: "Il",
+				reponse: "envoie",
+				last: "",
+				voirConjugaison: "Il/Elle envoie",
+			},
+			{ first: "On", reponse: "envoie", last: "", voirConjugaison: "On envoie" },
+			{
+				first: "Nous",
+				reponse: "envoyons",
+				last: "",
+				voirConjugaison: "Nous envoyons",
+			},
+			{
+				first: "Vous",
+				reponse: "envoyez",
+				last: "",
+				voirConjugaison: "Vous envoyez",
+			},
+			{
+				first: "Ils",
+				reponse: "envoient",
+				last: "",
+				voirConjugaison: "Ils/Elles envoient",
+			},
+		],
+	},
+	{
+		nombre: "Excuser",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "excuse",
+				last: "",
+				voirConjugaison: "J'excuse",
+			},
+			{ first: "Tu", reponse: "excuses", last: "", voirConjugaison: "Tu excuses" },
+			{
+				first: "Il",
+				reponse: "excuse",
+				last: "",
+				voirConjugaison: "Il/Elle excuse",
+			},
+			{ first: "On", reponse: "excuse", last: "", voirConjugaison: "On excuse" },
+			{
+				first: "Nous",
+				reponse: "excusons",
+				last: "",
+				voirConjugaison: "Nous excusons",
+			},
+			{
+				first: "Vous",
+				reponse: "excusez",
+				last: "",
+				voirConjugaison: "Vous excusez",
+			},
+			{
+				first: "Ils",
+				reponse: "excusent",
+				last: "",
+				voirConjugaison: "Ils/Elles excusent",
+			},
+		],
+	},
+	{
+		nombre: "Entrer",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "entre",
+				last: "",
+				voirConjugaison: "J'entre",
+			},
+			{ first: "Tu", reponse: "entres", last: "", voirConjugaison: "Tu entres" },
+			{
+				first: "Il",
+				reponse: "entre",
+				last: "",
+				voirConjugaison: "Il/Elle entre",
+			},
+			{ first: "On", reponse: "entre", last: "", voirConjugaison: "On entre" },
+			{
+				first: "Nous",
+				reponse: "entrons",
+				last: "",
+				voirConjugaison: "Nous entrons",
+			},
+			{
+				first: "Vous",
+				reponse: "entrez",
+				last: "",
+				voirConjugaison: "Vous entrez",
+			},
+			{
+				first: "Ils",
+				reponse: "entrent",
+				last: "",
+				voirConjugaison: "Ils/Elles entrent",
+			},
+		],
+	},
+	{
+		nombre: "Enquêter",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "enquête",
+				last: "",
+				voirConjugaison: "J'enquête",
+			},
+			{ first: "Tu", reponse: "enquêtes", last: "", voirConjugaison: "Tu enquêtes" },
+			{
+				first: "Il",
+				reponse: "enquête",
+				last: "",
+				voirConjugaison: "Il/Elle enquête",
+			},
+			{ first: "On", reponse: "enquête", last: "", voirConjugaison: "On enquête" },
+			{
+				first: "Nous",
+				reponse: "enquêtons",
+				last: "",
+				voirConjugaison: "Nous enquêtons",
+			},
+			{
+				first: "Vous",
+				reponse: "enquêtez",
+				last: "",
+				voirConjugaison: "Vous enquêtez",
+			},
+			{
+				first: "Ils",
+				reponse: "enquêtent",
+				last: "",
+				voirConjugaison: "Ils/Elles enquêtent",
+			},
+		],
+	},
+	{
+		nombre: "Effacer",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "efface",
+				last: "",
+				voirConjugaison: "J'efface",
+			},
+			{ first: "Tu", reponse: "effaces", last: "", voirConjugaison: "Tu effaces" },
+			{
+				first: "Il",
+				reponse: "efface",
+				last: "",
+				voirConjugaison: "Il/Elle efface",
+			},
+			{ first: "On", reponse: "efface", last: "", voirConjugaison: "On efface" },
+			{
+				first: "Nous",
+				reponse: "effaçons",
+				last: "",
+				voirConjugaison: "Nous effaçons",
+			},
+			{
+				first: "Vous",
+				reponse: "effacez",
+				last: "",
+				voirConjugaison: "Vous effacez",
+			},
+			{
+				first: "Ils",
+				reponse: "effacent",
+				last: "",
+				voirConjugaison: "Ils/Elles effacent",
+			},
+		],
+	},
+	
 	{
 		nombre: "Pouvoir",
 		conjugaison: [
@@ -830,6 +2209,228 @@ export const data = [
 				reponse: "sont",
 				last: "deux.",
 				voirConjugaison: "Ils/Elles sont",
+			},
+		],
+	},
+	{
+		nombre: "Étudier",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "étudie",
+				last: "",
+				voirConjugaison: "J'étudie",
+			},
+			{ first: "Tu", reponse: "étudies", last: "", voirConjugaison: "Tu étudies" },
+			{
+				first: "Il",
+				reponse: "étudie",
+				last: "",
+				voirConjugaison: "Il/Elle étudie",
+			},
+			{ first: "On", reponse: "étudie", last: "", voirConjugaison: "On étudie" },
+			{
+				first: "Nous",
+				reponse: "étudions",
+				last: "",
+				voirConjugaison: "Nous étudions",
+			},
+			{
+				first: "Vous",
+				reponse: "étudiez",
+				last: "",
+				voirConjugaison: "Vous étudiez",
+			},
+			{
+				first: "Ils",
+				reponse: "étudient",
+				last: "",
+				voirConjugaison: "Ils/Elles étudient",
+			},
+		],
+	},
+	{
+		nombre: "Entrer",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "entre",
+				last: "",
+				voirConjugaison: "J'entre",
+			},
+			{ first: "Tu", reponse: "entres", last: "", voirConjugaison: "Tu entres" },
+			{
+				first: "Il",
+				reponse: "entre",
+				last: "",
+				voirConjugaison: "Il/Elle entre",
+			},
+			{ first: "On", reponse: "entre", last: "", voirConjugaison: "On entre" },
+			{
+				first: "Nous",
+				reponse: "entrons",
+				last: "",
+				voirConjugaison: "Nous entrons",
+			},
+			{
+				first: "Vous",
+				reponse: "entrez",
+				last: "",
+				voirConjugaison: "Vous entrez",
+			},
+			{
+				first: "Ils",
+				reponse: "entrent",
+				last: "",
+				voirConjugaison: "Ils/Elles entrent",
+			},
+		],
+	},
+	{
+		nombre: "Écouter",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "écoute",
+				last: "",
+				voirConjugaison: "J'écoute",
+			},
+			{ first: "Tu", reponse: "écoutes", last: "", voirConjugaison: "Tu écoutes" },
+			{
+				first: "Il",
+				reponse: "écoute",
+				last: "",
+				voirConjugaison: "Il/Elle écoute",
+			},
+			{ first: "On", reponse: "écoute", last: "", voirConjugaison: "On écoute" },
+			{
+				first: "Nous",
+				reponse: "écoutons",
+				last: "",
+				voirConjugaison: "Nous écoutons",
+			},
+			{
+				first: "Vous",
+				reponse: "écoutez",
+				last: "",
+				voirConjugaison: "Vous écoutez",
+			},
+			{
+				first: "Ils",
+				reponse: "écoutent",
+				last: "",
+				voirConjugaison: "Ils/Elles écoutent",
+			},
+		],
+	},
+	{
+		nombre: "Écrire",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "écris",
+				last: "",
+				voirConjugaison: "J'écris",
+			},
+			{ first: "Tu", reponse: "écris", last: "", voirConjugaison: "Tu écris" },
+			{
+				first: "Il",
+				reponse: "écrit",
+				last: "",
+				voirConjugaison: "Il/Elle écrit",
+			},
+			{ first: "On", reponse: "écrit", last: "", voirConjugaison: "On écrit" },
+			{
+				first: "Nous",
+				reponse: "écrivons",
+				last: "",
+				voirConjugaison: "Nous écrivons",
+			},
+			{
+				first: "Vous",
+				reponse: "écrivez",
+				last: "",
+				voirConjugaison: "Vous écrivez",
+			},
+			{
+				first: "Ils",
+				reponse: "écrivent",
+				last: "",
+				voirConjugaison: "Ils/Elles écrivent",
+			},
+		],
+	},
+	{
+		nombre: "Essayer",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "essaie",
+				last: "",
+				voirConjugaison: "J'essaie",
+			},
+			{ first: "Tu", reponse: "essaies", last: "", voirConjugaison: "Tu essaies" },
+			{
+				first: "Il",
+				reponse: "essaie",
+				last: "",
+				voirConjugaison: "Il/Elle essaie",
+			},
+			{ first: "On", reponse: "essaie", last: "", voirConjugaison: "On essaie" },
+			{
+				first: "Nous",
+				reponse: "essayons",
+				last: "",
+				voirConjugaison: "Nous essayons",
+			},
+			{
+				first: "Vous",
+				reponse: "essayez",
+				last: "",
+				voirConjugaison: "Vous essayez",
+			},
+			{
+				first: "Ils",
+				reponse: "essaient",
+				last: "",
+				voirConjugaison: "Ils/Elles essaient",
+			},
+		],
+	},
+	{
+		nombre: "Éteindre",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "éteins",
+				last: "",
+				voirConjugaison: "J'éteins",
+			},
+			{ first: "Tu", reponse: "éteins", last: "", voirConjugaison: "Tu éteins" },
+			{
+				first: "Il",
+				reponse: "éteint",
+				last: "",
+				voirConjugaison: "Il/Elle éteint",
+			},
+			{ first: "On", reponse: "éteint", last: "", voirConjugaison: "On éteint" },
+			{
+				first: "Nous",
+				reponse: "éteignons",
+				last: "",
+				voirConjugaison: "Nous éteignons",
+			},
+			{
+				first: "Vous",
+				reponse: "éteignez",
+				last: "",
+				voirConjugaison: "Vous éteignez",
+			},
+			{
+				first: "Ils",
+				reponse: "éteignent",
+				last: "",
+				voirConjugaison: "Ils/Elles éteignent",
 			},
 		],
 	},
@@ -978,7 +2579,6 @@ export const data = [
 			},
 		],
 	},
-
 	{
 		nombre: "Vouloir",
 		conjugaison: [
@@ -1034,7 +2634,7 @@ export const data = [
 // 	conjugaison: [
 // 		{
 // 			first: "Je",
-// 			reponse: "a",
+// 			reponse: "",
 // 			last: "",
 // 			voirConjugaison: "Je",
 // 		},
@@ -1058,7 +2658,6 @@ export const data = [
 // 			last: "",
 // 			voirConjugaison: "Vous",
 // 		},
-
 // 		{
 // 			first: "Ils",
 // 			reponse: "",

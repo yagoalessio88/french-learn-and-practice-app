@@ -51,10 +51,12 @@ body {
 
 /* STYLE FOR BUTTONS */
 .button {
+  display: block;
   font-size: 0.9rem;
-  max-width: 200px;
+  width: 6.2rem;
   padding: 0.7rem;
   min-height: 2.5rem;
+  text-align: center;
   text-transform: capitalize;
   background-color: rgba(51, 131, 228, 0.9);
   color: white;
@@ -68,11 +70,6 @@ body {
   cursor: pointer;
   /* background-color: rgba(34, 95, 169, 0.9); */
 }
-/* reset for React Links to act alike buttons */
-.link {
-  display: block;
-}
-
 
 /* GENERAL CLASS FOR MAIN COMPONENTS */
 .app_body{
@@ -93,5 +90,5 @@ body {
   flex-direction: column;
 }
 .navbar_list_item {
-  margin: 1rem auto;
+  margin: 0.7rem auto;
 }

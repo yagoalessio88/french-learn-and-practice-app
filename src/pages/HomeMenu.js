@@ -9,14 +9,14 @@ const HomeMenu = () => {
 				<ul className="navbar_list">
 					<li className="navbar_list_item">
 						<Link to="/verbesmenu" className="button">
-							Verbes Menu
+							Verbes
 						</Link>
 					</li>
-					<li className="navbar_list_item">
+					{/* <li className="navbar_list_item">
 						<Link to="/rechercherverbes" className="button">
 							rechercher verbes
 						</Link>
-					</li>
+					</li> */}
 				</ul>
 			</nav>
 		</Wrapper>
