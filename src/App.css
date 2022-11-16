@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 :root {
   --background-main: white;
   --background-secondary: white;
@@ -27,20 +28,24 @@
 li {
   list-style: none;
 }
+
 a {
   text-decoration: none;
 }
+
 body {
   overflow-x: hidden;
   background-color: var(--background-main);
   color: var(--typography-1);
- 
+
 }
+
 /* MAIN APP CONTAINER DIV IN HTML INDEX */
-#root{
+#root {
   height: 100vh;
   width: 100vw;
 }
+
 /* GLOBAL CLASSES */
 .section {
   width: 90%;
@@ -55,7 +60,6 @@ body {
   font-size: 0.9rem;
   width: 6.2rem;
   padding: 0.7rem;
-  min-height: 2.5rem;
   text-align: center;
   text-transform: capitalize;
   background-color: rgba(51, 131, 228, 0.9);
@@ -65,19 +69,32 @@ body {
   box-shadow: -1px 0px 20px -12px rgba(0, 0, 0, 0.75);
   transition: all 0.3s ease;
 }
+
 .button:hover {
   box-shadow: -1px 0px 30px -9px rgba(0, 0, 0, 0.75);
   cursor: pointer;
   /* background-color: rgba(34, 95, 169, 0.9); */
 }
 
+@media screen and (min-width: 768px) {
+  .button {
+    width: 6rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: capitalize;
+
+  }
+}
+
 /* GENERAL CLASS FOR MAIN COMPONENTS */
-.app_body{
-  height:calc(100vh - 4rem);
-  padding: 1.5rem;
+.app_body {
+  height: calc(100vh - 4rem);
+  padding: 0 1.5rem 1.5rem 1.5rem;
   overflow-y: scroll;
   width: 100%;
 }
+
+/* @media screen and (min-width: 768px) {} */
 
 
 
@@ -89,6 +106,7 @@ body {
   flex-wrap: nowrap;
   flex-direction: column;
 }
+
 .navbar_list_item {
   margin: 0.7rem auto;
 }

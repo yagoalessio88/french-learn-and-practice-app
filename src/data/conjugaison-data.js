@@ -1,8 +1,9 @@
 export const data = [
-	
-	
+
+
 	{
 		nombre: "Atteindre",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -51,6 +52,7 @@ export const data = [
 	},
 	{
 		nombre: "Activer",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -99,6 +101,7 @@ export const data = [
 	},
 	{
 		nombre: "Allumer",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -147,6 +150,7 @@ export const data = [
 	},
 	{
 		nombre: "Aider",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -185,6 +189,7 @@ export const data = [
 	},
 	{
 		nombre: "Aimer",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -223,6 +228,7 @@ export const data = [
 	},
 	{
 		nombre: "Arrêter",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -271,6 +277,7 @@ export const data = [
 	},
 	{
 		nombre: "Aller",
+		index: "A",
 		conjugaison: [
 			{
 				first: "Je",
@@ -318,6 +325,7 @@ export const data = [
 	},
 	{
 		nombre: "Avoir",
+		index: "A",
 		conjugaison: [
 			{
 				first: "Aujourd'hui j'",
@@ -367,6 +375,7 @@ export const data = [
 
 	{
 		nombre: "Appeller",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -415,6 +424,7 @@ export const data = [
 	},
 	{
 		nombre: "Attendre",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -463,6 +473,7 @@ export const data = [
 	},
 	{
 		nombre: "Accéder",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -511,6 +522,7 @@ export const data = [
 	},
 	{
 		nombre: "Acheter",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -559,6 +571,7 @@ export const data = [
 	},
 	{
 		nombre: "Apprendre",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -607,6 +620,7 @@ export const data = [
 	},
 	{
 		nombre: "Arriver",
+		index: "A",
 		conjugaison: [
 			{
 				first: "J'",
@@ -655,6 +669,7 @@ export const data = [
 	},
 	{
 		nombre: "Bosser",
+		index: "B",
 		conjugaison: [
 			{
 				first: "Je",
@@ -698,6 +713,7 @@ export const data = [
 	},
 	{
 		nombre: "Boire",
+		index: "B",
 		conjugaison: [
 			{
 				first: "Je",
@@ -725,7 +741,7 @@ export const data = [
 				last: "",
 				voirConjugaison: "Vous buvez",
 			},
-	
+
 			{
 				first: "Ils",
 				reponse: "boivent",
@@ -736,6 +752,7 @@ export const data = [
 	},
 	{
 		nombre: "Brider",
+		index: "B",
 		conjugaison: [
 			{
 				first: "Je",
@@ -763,7 +780,7 @@ export const data = [
 				last: "",
 				voirConjugaison: "Vous bridez",
 			},
-	
+
 			{
 				first: "Ils",
 				reponse: "brident",
@@ -774,6 +791,7 @@ export const data = [
 	},
 	{
 		nombre: "Bouger",
+		index: "B",
 		conjugaison: [
 			{
 				first: "Je",
@@ -801,7 +819,7 @@ export const data = [
 				last: "",
 				voirConjugaison: "Vous bougez",
 			},
-	
+
 			{
 				first: "Ils",
 				reponse: "bougent",
@@ -812,6 +830,7 @@ export const data = [
 	},
 	{
 		nombre: "Changer",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -839,7 +858,7 @@ export const data = [
 				last: "",
 				voirConjugaison: "Vous changez",
 			},
-	
+
 			{
 				first: "Ils",
 				reponse: "changent",
@@ -850,6 +869,7 @@ export const data = [
 	},
 	{
 		nombre: "Choisir",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -877,7 +897,7 @@ export const data = [
 				last: "",
 				voirConjugaison: "Vous choisissez",
 			},
-	
+
 			{
 				first: "Ils",
 				reponse: "choisissent",
@@ -888,6 +908,7 @@ export const data = [
 	},
 	{
 		nombre: "Croir",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -925,6 +946,7 @@ export const data = [
 	},
 	{
 		nombre: "Commander",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -962,6 +984,7 @@ export const data = [
 	},
 	{
 		nombre: "Cliquer",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -999,6 +1022,7 @@ export const data = [
 	},
 	{
 		nombre: "Cacher",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1036,6 +1060,7 @@ export const data = [
 	},
 	{
 		nombre: "Couper",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1073,6 +1098,7 @@ export const data = [
 	},
 	{
 		nombre: "Coller",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1110,6 +1136,7 @@ export const data = [
 	},
 	{
 		nombre: "Consulter",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1147,6 +1174,7 @@ export const data = [
 	},
 	{
 		nombre: "Cerner",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1184,6 +1212,7 @@ export const data = [
 	},
 	{
 		nombre: "Copier",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1221,6 +1250,7 @@ export const data = [
 	},
 	{
 		nombre: "Configurer",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1258,6 +1288,7 @@ export const data = [
 	},
 	{
 		nombre: "Construire",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1295,6 +1326,7 @@ export const data = [
 	},
 	{
 		nombre: "Créer",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1332,6 +1364,7 @@ export const data = [
 	},
 	{
 		nombre: "Calculer",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1369,6 +1402,7 @@ export const data = [
 	},
 	{
 		nombre: "Causer",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1406,6 +1440,7 @@ export const data = [
 	},
 	{
 		nombre: "Commencer",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1433,7 +1468,7 @@ export const data = [
 				last: "",
 				voirConjugaison: "Vous commencez",
 			},
-	
+
 			{
 				first: "Ils",
 				reponse: "commencent",
@@ -1444,6 +1479,7 @@ export const data = [
 	},
 	{
 		nombre: "Chercher",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1481,6 +1517,7 @@ export const data = [
 	},
 	{
 		nombre: "Comprendre",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1518,6 +1555,7 @@ export const data = [
 	},
 	{
 		nombre: "Connaître",
+		index: "C",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1555,6 +1593,7 @@ export const data = [
 	},
 	{
 		nombre: "Devoir",
+		index: "D",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1592,6 +1631,7 @@ export const data = [
 	},
 	{
 		nombre: "Dormir",
+		index: "D",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1629,6 +1669,7 @@ export const data = [
 	},
 	{
 		nombre: "Donner",
+		index: "D",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1666,6 +1707,7 @@ export const data = [
 	},
 	{
 		nombre: "Devenir",
+		index: "D",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1703,6 +1745,7 @@ export const data = [
 	},
 	{
 		nombre: "Démarrer",
+		index: "D",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1740,6 +1783,7 @@ export const data = [
 	},
 	{
 		nombre: "Décaler",
+		index: "D",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1777,6 +1821,7 @@ export const data = [
 	},
 	{
 		nombre: "Dominer",
+		index: "D",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1814,6 +1859,7 @@ export const data = [
 	},
 	{
 		nombre: "Demander",
+		index: "D",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1851,6 +1897,7 @@ export const data = [
 	},
 	{
 		nombre: "Dégager",
+		index: "D",
 		conjugaison: [
 			{
 				first: "Je",
@@ -1889,6 +1936,7 @@ export const data = [
 
 	{
 		nombre: "Dire",
+		index: "D",
 		conjugaison: [
 			{
 				first: "Vous verrez, je",
@@ -1937,6 +1985,7 @@ export const data = [
 	},
 	{
 		nombre: "Envoyer",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -1974,6 +2023,7 @@ export const data = [
 	},
 	{
 		nombre: "Excuser",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -2011,6 +2061,7 @@ export const data = [
 	},
 	{
 		nombre: "Entrer",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -2048,6 +2099,7 @@ export const data = [
 	},
 	{
 		nombre: "Enquêter",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -2085,6 +2137,7 @@ export const data = [
 	},
 	{
 		nombre: "Effacer",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -2120,57 +2173,10 @@ export const data = [
 			},
 		],
 	},
-	
-	{
-		nombre: "Pouvoir",
-		conjugaison: [
-			{
-				first: "J'admets que je",
-				reponse: "peux",
-				last: "être chiante.",
-				voirConjugaison: "Je peux",
-			},
-			{
-				first: "Zoidberg, tu",
-				reponse: "peux",
-				last: "remplacer Fry.",
-				voirConjugaison: "Tu peux",
-			},
-			{
-				first: "Voyez s'il",
-				reponse: "peut",
-				last: "venir lundi.",
-				voirConjugaison: "Il/Elle peut",
-			},
-			{
-				first: "Ensemble, on",
-				reponse: "peut",
-				last: "refaçonner cette planète.",
-				voirConjugaison: "On peut",
-			},
-			{
-				first: "Entendu, nous",
-				reponse: "pouvons",
-				last: "travailler ça.",
-				voirConjugaison: "Nous pouvons",
-			},
-			{
-				first: "Comme convenu, maintenant vous",
-				reponse: "pouvez",
-				last: "partir.",
-				voirConjugaison: "Vous pouvez",
-			},
 
-			{
-				first: "Les Maldives font ce qu'elles",
-				reponse: "peuvent",
-				last: "pour protéger leur population.",
-				voirConjugaison: "Ils/Elles peuvent",
-			},
-		],
-	},
 	{
 		nombre: "Être",
+		index: "E",
 		conjugaison: [
 			{
 				first: "Je",
@@ -2214,6 +2220,7 @@ export const data = [
 	},
 	{
 		nombre: "Étudier",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -2251,6 +2258,7 @@ export const data = [
 	},
 	{
 		nombre: "Entrer",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -2288,6 +2296,7 @@ export const data = [
 	},
 	{
 		nombre: "Écouter",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -2325,6 +2334,7 @@ export const data = [
 	},
 	{
 		nombre: "Écrire",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -2362,6 +2372,7 @@ export const data = [
 	},
 	{
 		nombre: "Essayer",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -2399,6 +2410,7 @@ export const data = [
 	},
 	{
 		nombre: "Éteindre",
+		index: "E",
 		conjugaison: [
 			{
 				first: "J'",
@@ -2435,7 +2447,161 @@ export const data = [
 		],
 	},
 	{
+		nombre: "Estimer",
+		index: "E",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "estime",
+				last: "",
+				voirConjugaison: "J'estime",
+			},
+			{ first: "Tu", reponse: "estimes", last: "", voirConjugaison: "Tu estimes" },
+			{
+				first: "Il",
+				reponse: "estime",
+				last: "",
+				voirConjugaison: "Il/Elle estime",
+			},
+			{ first: "On", reponse: "estime", last: "", voirConjugaison: "On estime" },
+			{
+				first: "Nous",
+				reponse: "estimons",
+				last: "",
+				voirConjugaison: "Nous estimons",
+			},
+			{
+				first: "Vous",
+				reponse: "estimez",
+				last: "",
+				voirConjugaison: "Vous estimez",
+			},
+			{
+				first: "Ils",
+				reponse: "estiment",
+				last: "",
+				voirConjugaison: "Ils/Elles estiment",
+			},
+		],
+	},
+	{
+		nombre: "Emprunter",
+		index: "E",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "emprunte",
+				last: "",
+				voirConjugaison: "J'emprunte",
+			},
+			{ first: "Tu", reponse: "empruntes", last: "", voirConjugaison: "Tu empruntes" },
+			{
+				first: "Il",
+				reponse: "emprunte",
+				last: "",
+				voirConjugaison: "Il/Elle emprunte",
+			},
+			{ first: "On", reponse: "emprunte", last: "", voirConjugaison: "On emprunte" },
+			{
+				first: "Nous",
+				reponse: "empruntons",
+				last: "",
+				voirConjugaison: "Nous empruntons",
+			},
+			{
+				first: "Vous",
+				reponse: "empruntez",
+				last: "",
+				voirConjugaison: "Vous empruntez",
+			},
+			{
+				first: "Ils",
+				reponse: "emprunten",
+				last: "",
+				voirConjugaison: "Ils/Elles empruntent",
+			},
+		],
+	},
+	{
+		nombre: "Enlever",
+		index: "E",
+		conjugaison: [
+			{
+				first: "J'enlève",
+				reponse: "",
+				last: "",
+				voirConjugaison: "J'enlève",
+			},
+			{ first: "Tu", reponse: "enlèves", last: "", voirConjugaison: "Tu enlèves" },
+			{
+				first: "Il",
+				reponse: "enlève",
+				last: "",
+				voirConjugaison: "Il/Elle enlève",
+			},
+			{ first: "On", reponse: "enlève", last: "", voirConjugaison: "On enlève" },
+			{
+				first: "Nous",
+				reponse: "enlevons",
+				last: "",
+				voirConjugaison: "Nous enlevons",
+			},
+			{
+				first: "Vous",
+				reponse: "enlevez",
+				last: "",
+				voirConjugaison: "Vous enlevez",
+			},
+			{
+				first: "Ils",
+				reponse: "enlèvent",
+				last: "",
+				voirConjugaison: "Ils/Elles enlèvent",
+			},
+		],
+	},
+	{
+		nombre: "Falloir",
+		index: "F",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "fais",
+				last: "",
+				voirConjugaison: "Je fais",
+			},
+			{ first: "Tu", reponse: "fais", last: "", voirConjugaison: "Tu fais" },
+			{
+				first: "Il",
+				reponse: "fait",
+				last: "",
+				voirConjugaison: "Il/Elle fait",
+			},
+			{ first: "On", reponse: "", last: "", voirConjugaison: "On" },
+			{
+				first: "Nous",
+				reponse: "",
+				last: "",
+				voirConjugaison: "Nous",
+			},
+			{
+				first: "Vous",
+				reponse: "",
+				last: "",
+				voirConjugaison: "Vous",
+			},
+			{
+				first: "Ils",
+				reponse: "",
+				last: "",
+				voirConjugaison: "Ils/Elles",
+			},
+		],
+	},
+
+	{
 		nombre: "Faire",
+		index: "F",
 		conjugaison: [
 			{
 				first: "Voilà pourquoi je",
@@ -2484,6 +2650,7 @@ export const data = [
 	},
 	{
 		nombre: "S'assoir",
+		index: "S",
 		conjugaison: [
 			{
 				first: "Je m'",
@@ -2533,6 +2700,7 @@ export const data = [
 
 	{
 		nombre: "S'appeler",
+		index: "S",
 		conjugaison: [
 			{
 				first: "Je",
@@ -2580,7 +2748,57 @@ export const data = [
 		],
 	},
 	{
+		nombre: "Pouvoir",
+		index: "P",
+		conjugaison: [
+			{
+				first: "J'admets que je",
+				reponse: "peux",
+				last: "être chiante.",
+				voirConjugaison: "Je peux",
+			},
+			{
+				first: "Zoidberg, tu",
+				reponse: "peux",
+				last: "remplacer Fry.",
+				voirConjugaison: "Tu peux",
+			},
+			{
+				first: "Voyez s'il",
+				reponse: "peut",
+				last: "venir lundi.",
+				voirConjugaison: "Il/Elle peut",
+			},
+			{
+				first: "Ensemble, on",
+				reponse: "peut",
+				last: "refaçonner cette planète.",
+				voirConjugaison: "On peut",
+			},
+			{
+				first: "Entendu, nous",
+				reponse: "pouvons",
+				last: "travailler ça.",
+				voirConjugaison: "Nous pouvons",
+			},
+			{
+				first: "Comme convenu, maintenant vous",
+				reponse: "pouvez",
+				last: "partir.",
+				voirConjugaison: "Vous pouvez",
+			},
+
+			{
+				first: "Les Maldives font ce qu'elles",
+				reponse: "peuvent",
+				last: "pour protéger leur population.",
+				voirConjugaison: "Ils/Elles peuvent",
+			},
+		],
+	},
+	{
 		nombre: "Vouloir",
+		index: "V",
 		conjugaison: [
 			{
 				first: "¿Vous voyez pourquoi je",

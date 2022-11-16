@@ -10,6 +10,7 @@ const FooterNavbar = () => {
 					<li className="navbar__link__home">
 						<Link to="/">
 							<BiHome className="navbar__icon" />
+							<p className="homelink_desktop">Home</p>
 						</Link>
 					</li>
 				</ul>
@@ -36,4 +37,16 @@ const Wrapper = styled.section`
 		width: auto;
 		color: black;
 	}
+	.homelink_desktop{
+		display:none;	
+	}
+	@media screen and (min-width: 768px) {
+		.navbar__icon {
+			display:none;	
+		}
+		.homelink_desktop{
+			display:inline;
+		}
+	}
+
 `;
