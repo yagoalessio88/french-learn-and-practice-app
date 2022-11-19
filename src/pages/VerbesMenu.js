@@ -74,6 +74,11 @@ const Wrapper = styled.section`
 	}
 	.header_link:active{
 		text-decoration: none;
+		border: none;
+	}
+	.header_link:visited{
+		text-decoration: none;
+		border: none;
 	}
 	.header_link:hover{
 		cursor:pointer;
