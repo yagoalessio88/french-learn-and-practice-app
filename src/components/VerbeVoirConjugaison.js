@@ -14,7 +14,7 @@ function VerbeVoirConjugaison() {
 			<section className="app_body">
 				<ul className="conjugaison_container">
 					{conjugaison.map((item, index) => {
-						return <li key={index}>{item.voirConjugaison}</li>;
+						return <li className="conjugaison__li-element" key={index}>{item.voirConjugaison}</li>;
 					})}
 				</ul>
 				<Link to={`/verbesmenu/${id}`} className="button link">
@@ -39,7 +39,8 @@ const Wrapper = styled.section`
 		text-align: center;
 		margin: 0 auto 4rem auto;
 	}
-	.conjugaison_container li {
+	.conjugaison__li-element{
 		margin-bottom: 0.5rem;
+		font-size: 2rem;
 	}
 `;

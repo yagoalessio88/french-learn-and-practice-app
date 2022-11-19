@@ -53,7 +53,6 @@ const Wrapper = styled.section`
 	.header{
 		position:sticky;
 		top:0;
-		height: 4rem;
 		padding: 1rem;
 		z-index: 100000;
 		background-color: white;
@@ -62,12 +61,15 @@ const Wrapper = styled.section`
 		display:flex;
 		justify-content: space-around;
 		flex-direction:row;
+		flex-wrap: wrap;
 	}
 	.header_link{
+		margin: 0.3rem;
 		border-style:none;
 		background-color: white;
-		height: 1.5rem;
-		width: 1.5rem;
+		font-size: 2rem;
+		height: 2rem;
+		width: 2rem;
 		transition: all 0.3s ease;
 	}
 	.header_link:hover{

@@ -2,10 +2,12 @@ import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-const HomeMenu = () => {
+const MainMenu = () => {
 	return (
-		<Wrapper>
-			<nav className="home app_body">
+		<Wrapper className="app_body">
+			<nav className="home">
+				<h1 className="home_title">Bienvenue!</h1>
+				<p className="home_text">Qu'est-ce que tu veux pratiquer? </p>
 				<ul className="home_list">
 					<li className="home_list_item">
 						<Link to="/verbesmenu" className="button">
@@ -23,13 +25,22 @@ const HomeMenu = () => {
 	);
 };
 
-export { HomeMenu };
+export { MainMenu };
 
 const Wrapper = styled.section`
 	.home {
 		display: flex;
-		justify-content: space-around;
-		align-items: center;
+        flex-direction: column;
+        align_items: center;
+        text-align: center;
+	}
+	.home_title{
+		margin-top: 4rem;
+        margin-bottom: 3rem;
+	}
+	.home_text{
+		margin-top: 2rem;
+        margin-bottom: 3rem;
 	}
 	.home_list {
 		padding: 0.5rem;

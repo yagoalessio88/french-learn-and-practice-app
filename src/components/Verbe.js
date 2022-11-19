@@ -117,6 +117,7 @@ const Wrapper = styled.section`
 	}
 	.main-verbe__li-element {
 		margin-bottom: 0.5rem;
+		font-size: 2rem;
 	}
 	.main-verbe input {
 		margin: 0 0.5rem;
