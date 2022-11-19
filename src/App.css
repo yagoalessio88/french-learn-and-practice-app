@@ -5,7 +5,7 @@
 }
 
 :root {
-  --background-main: white;
+  --background-main: rgb(253, 253, 255);
   --background-secondary: white;
   --typography-1: var(--blue);
   --typography-2: var();

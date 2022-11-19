@@ -72,6 +72,9 @@ const Wrapper = styled.section`
 		width: 2rem;
 		transition: all 0.3s ease;
 	}
+	.header_link:active{
+		text-decoration: none;
+	}
 	.header_link:hover{
 		cursor:pointer;
 		color: rgba(51, 131, 228, 0.9);

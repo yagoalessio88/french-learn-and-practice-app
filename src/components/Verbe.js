@@ -119,9 +119,11 @@ const Wrapper = styled.section`
 		margin-bottom: 0.5rem;
 		font-size: 2rem;
 	}
-	.main-verbe input {
+	.text-input{
 		margin: 0 0.5rem;
-		width: 5rem;
+		height: 2rem;
+		width: 65%;
+		font-size: 2rem;
 	}
 	.button_container {
 		padding: 0.5rem;
