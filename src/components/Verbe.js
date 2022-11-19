@@ -123,10 +123,9 @@ const Wrapper = styled.section`
 		margin: 0 0.5rem;
 		height: 2rem;
 		width: 65%;
-		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 	.button_container {
-		padding: 0.5rem;
 		display: flex;
 		justify-content: space-around;
 		gap: 0.5rem;
@@ -136,6 +135,8 @@ const Wrapper = styled.section`
 	}
 	.main-verbe_result {
 		margin-top: 2rem;
+		margin-bottom: 2rem;
+		font-size: 2.5rem;
 	}
 	@media screen and (min-width: 700px) {
 		.section-container {
