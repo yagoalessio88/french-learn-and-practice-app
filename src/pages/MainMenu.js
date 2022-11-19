@@ -35,10 +35,12 @@ const Wrapper = styled.section`
         text-align: center;
 	}
 	.home_title{
+		font-size: 3rem;
 		margin-top: 4rem;
         margin-bottom: 3rem;
 	}
 	.home_text{
+		font-size: 1.3rem;
 		margin-top: 2rem;
         margin-bottom: 3rem;
 	}

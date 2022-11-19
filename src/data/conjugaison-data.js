@@ -877,7 +877,7 @@ export const data = [
 				last: "",
 				voirConjugaison: "Je choisis",
 			},
-			{ first: "Tu", reponse: "", last: "choisis", voirConjugaison: "Tu choisis" },
+			{ first: "Tu", reponse: "choisis", last: "", voirConjugaison: "Tu choisis" },
 			{
 				first: "Il",
 				reponse: "choisit",

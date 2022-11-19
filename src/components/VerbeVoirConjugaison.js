@@ -34,7 +34,7 @@ const Wrapper = styled.section`
 		align-items: center;
 	}
 	.conjugaison_container {
-		padding-top: 5rem;
+		padding-top: 8rem;
 		height: 70%;
 		text-align: center;
 		margin: 0 auto 4rem auto;
@@ -42,5 +42,13 @@ const Wrapper = styled.section`
 	.conjugaison__li-element{
 		margin-bottom: 0.5rem;
 		font-size: 2rem;
+	}
+	@media screen and (min-width: 700px) {
+		.conjugaison__li-element{
+			font-size: 1.5rem;
+		}
+		.conjugaison_container {
+			padding-top: 4rem;
+		}
 	}
 `;

@@ -124,6 +124,12 @@ const Wrapper = styled.section`
 		height: 2rem;
 		width: 65%;
 		font-size: 1.5rem;
+		border: none;
+		background-color: white;
+		border-radius: 7px;
+	}
+	.text-input:focus{
+		outline: none;
 	}
 	.button_container {
 		display: flex;
@@ -142,6 +148,13 @@ const Wrapper = styled.section`
 		.section-container {
 			width: 50%;
 			margin: 0 auto;
+		}
+		.main-verbe__li-element {
+			font-size: 1.2rem;
+		}
+		.text-input{
+			height: 1.6rem;
+			font-size: 1rem;
 		}
 	}
 `;
