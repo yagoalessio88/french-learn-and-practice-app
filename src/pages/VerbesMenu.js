@@ -81,7 +81,6 @@ const Wrapper = styled.section`
 		text-decoration: none;
 		border: none;
 	}
-	
 	.navbar_list {
 		padding: 0.5rem;
 		height: 90%;
@@ -89,7 +88,6 @@ const Wrapper = styled.section`
 		flex-wrap: nowrap;
 		flex-direction: column;
 	  }
-	  
 	  .navbar_list_item {
 		margin: 0.7rem auto;
 	  }
@@ -116,7 +114,6 @@ const Wrapper = styled.section`
 			flex-direction: row;
 			flex-wrap: wrap;
 			gap: 1rem;
-
 		}
 		.navbar_list_item {
 			margin: 0;
