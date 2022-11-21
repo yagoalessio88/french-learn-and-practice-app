@@ -25,7 +25,7 @@ const VerbesMenu = () => {
 					{initials.map((item, index) => (<button key={index} className="header_link" onClick={() => { getVerb(item) }}>{item}</button>))}
 				</ul>
 			</header>
-			<nav className="navbar ">
+			<nav className="navbar">
 				<ul className="navbar_list">
 					{data.map((item, key) => {
 						if (item.index === indexKey) {
@@ -81,6 +81,7 @@ const Wrapper = styled.section`
 		text-decoration: none;
 		border: none;
 	}
+	
 	.navbar_list {
 		padding: 0.5rem;
 		height: 90%;
@@ -95,6 +96,7 @@ const Wrapper = styled.section`
 	@media screen and (min-width: 700px) {
 		.header{
 			margin-bottom: 4rem;
+			padding: 2rem 3rem;
 		}
 		.header_link{
 			font-size: 1.2rem;
@@ -105,6 +107,9 @@ const Wrapper = styled.section`
 			cursor:pointer;
 			color: rgba(51, 131, 228, 0.9);
 			transform: scale(1.3);
+		}
+		.navbar{
+			padding: 2rem 5rem 0 5rem;
 		}
 		.navbar_list {
 			display: flex;
