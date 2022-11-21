@@ -7,7 +7,7 @@ const MainMenu = () => {
 		<Wrapper className="app_body">
 			<nav className="home">
 				<h1 className="home_title">Bienvenue!</h1>
-				<p className="home_text">Qu'est-ce que tu veux pratiquer? </p>
+				<p className="home_text">Profitez vous pour pratiquer plan de verbes à l'infinitif!</p>
 				<ul className="home_list">
 					<li className="home_list_item">
 						<Link to="/verbesmenu" className="button">

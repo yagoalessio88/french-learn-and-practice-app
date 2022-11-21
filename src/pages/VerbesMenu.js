@@ -53,7 +53,7 @@ const Wrapper = styled.section`
 	.header{
 		position:sticky;
 		top:0;
-		padding: 1rem;
+		padding: 1.7rem;
 		z-index: 100000;
 		width: 100%;
 		background-color: rgb(246, 246, 246);
@@ -69,7 +69,7 @@ const Wrapper = styled.section`
 		border-style:none;
 		font-size: 2rem;
 		height: 2rem;
-		width: 2rem;
+		width: 4rem;
 		transition: all 0.3s ease;
 		background-color: rgb(246, 246, 246);
 	}
