@@ -4104,7 +4104,7 @@ export const data = [
 		],
 	},
 	{
-		nombre: "Rentre",
+		nombre: "Rentrer",
 		index: "R",
 		conjugaison: [
 			{
