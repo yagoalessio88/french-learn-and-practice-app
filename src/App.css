@@ -76,7 +76,7 @@ body {
   /* background-color: rgba(34, 95, 169, 0.9); */
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 395px) {
   .button {
     width: 6rem;
     padding: 0.5rem;

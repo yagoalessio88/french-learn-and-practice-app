@@ -144,7 +144,7 @@ const Wrapper = styled.section`
 		margin-bottom: 2rem;
 		font-size: 2.5rem;
 	}
-	@media screen and (min-width: 700px) {
+	@media screen and (min-width: 395px) {
 		.section-container {
 			width: 50%;
 			margin: 0 auto;

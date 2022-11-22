@@ -54,7 +54,7 @@ const Wrapper = styled.section`
 	  .home_list_item {
 		margin: 0.7rem auto;
 	  }
-	  @media screen and (min-width: 768px) {
+	  @media screen and (min-width: 395px) {
 		.home{
 			
 		}

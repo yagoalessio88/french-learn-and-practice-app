@@ -91,7 +91,7 @@ const Wrapper = styled.section`
 	  .navbar_list_item {
 		margin: 0.7rem auto;
 	  }
-	@media screen and (min-width: 700px) {
+	@media screen and (min-width: 395px) {
 		.header{
 			margin-bottom: 4rem;
 			padding: 2rem 3rem;
