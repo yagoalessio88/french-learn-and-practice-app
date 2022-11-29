@@ -292,16 +292,16 @@ export const data = [
 				voirConjugaison: "Tu vas",
 			},
 			{
-				first: "On",
-				reponse: "va",
-				last: "",
-				voirConjugaison: "On va",
-			},
-			{
 				first: "Il",
 				reponse: "va",
 				last: "",
 				voirConjugaison: "Il/Elle va",
+			},
+			{
+				first: "On",
+				reponse: "va",
+				last: "",
+				voirConjugaison: "On va",
 			},
 			{
 				first: "Nous",
@@ -381,7 +381,7 @@ export const data = [
 				first: "J'",
 				reponse: "appelle",
 				last: "",
-				voirConjugaison: "J'apelle",
+				voirConjugaison: "J'appelle",
 			},
 			{
 				first: "Tu",
@@ -575,7 +575,7 @@ export const data = [
 		conjugaison: [
 			{
 				first: "J'",
-				reponse: "apprendrs",
+				reponse: "apprends",
 				last: "",
 				voirConjugaison: "J'apprends",
 			},
@@ -806,7 +806,7 @@ export const data = [
 				last: "",
 				voirConjugaison: "Il/Elle bouge",
 			},
-			{ first: "On", reponse: "", last: "bouge", voirConjugaison: "On bouge" },
+			{ first: "On", reponse: "bouge", last: "", voirConjugaison: "On bouge" },
 			{
 				first: "Nous",
 				reponse: "bougeons",
@@ -1528,11 +1528,11 @@ export const data = [
 			{ first: "Tu", reponse: "comprends", last: "", voirConjugaison: "Tu comprends" },
 			{
 				first: "Il",
-				reponse: "cromprend",
+				reponse: "comprend",
 				last: "",
 				voirConjugaison: "Il/Elle comprend",
 			},
-			{ first: "On", reponse: "cromprend", last: "", voirConjugaison: "On comprend" },
+			{ first: "On", reponse: "comprend", last: "", voirConjugaison: "On comprend" },
 			{
 				first: "Nous",
 				reponse: "comprenons",
@@ -2721,6 +2721,44 @@ export const data = [
 				reponse: "fournissent",
 				last: "",
 				voirConjugaison: "Ils/Elles fournissent",
+			},
+		],
+	},
+	{
+		nombre: "Galérer",
+		index: "G",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "galère",
+				last: "",
+				voirConjugaison: "Je galère",
+			},
+			{ first: "Tu", reponse: "galères", last: "", voirConjugaison: "Tu galères" },
+			{
+				first: "Il",
+				reponse: "galère",
+				last: "",
+				voirConjugaison: "Il/Elle galère",
+			},
+			{ first: "On", reponse: "galère", last: "", voirConjugaison: "On galère" },
+			{
+				first: "Nous",
+				reponse: "galérons",
+				last: "",
+				voirConjugaison: "Nous galérons",
+			},
+			{
+				first: "Vous",
+				reponse: "galérez",
+				last: "",
+				voirConjugaison: "Vous galérez",
+			},
+			{
+				first: "Ils",
+				reponse: "galèrent",
+				last: "",
+				voirConjugaison: "Ils/Elles galèrent",
 			},
 		],
 	},
