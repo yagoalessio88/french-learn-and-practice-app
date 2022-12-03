@@ -35,9 +35,9 @@ const Wrapper = styled.section`
 	}
 	.conjugaison_container {
 		padding-top: 8rem;
-		height: 70%;
+		height: 60%;
 		text-align: center;
-		margin: 0 auto 4rem auto;
+		margin: 0 auto 2rem auto;
 	}
 	.conjugaison__li-element{
 		margin-bottom: 0.5rem;

@@ -4020,8 +4020,8 @@ export const data = [
 				voirConjugaison: "Vous regardez",
 			},
 			{
-				first: "Ils regardent",
-				reponse: "",
+				first: "Ils",
+				reponse: "regardent",
 				last: "",
 				voirConjugaison: "Ils/Elles regardent",
 			},
