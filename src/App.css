@@ -63,6 +63,7 @@ body {
   font-size: 1rem;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: .2rem;
   background-color: rgba(54, 138, 240, 0.9);
   color: white;
   border-style: none;
@@ -110,6 +111,7 @@ body {
   font-size: 1rem;
   text-align: center;
   text-transform: capitalize;
+  letter-spacing: .2rem;
   background-color: white;
   color: black;
   border: 0.5px solid var(--gray);
