@@ -79,14 +79,14 @@ body {
 
 @media screen and (min-width: 420px) {
   .button {
-    width: 6rem;
+    min-width: 7.5rem;
     padding: 0.5rem;
     text-align: center;
     text-transform: capitalize;
   }
 
   .button:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
   }
 }
 
@@ -103,6 +103,20 @@ body {
   border-radius: var(--radious);
   /* box-shadow: -1px 0px 20px -12px rgba(0, 0, 0, 0.75);  */
   transition: all 0.3s ease;
+}
+
+@media screen and (min-width: 420px) {
+
+  .button_transparent {
+    min-width: 6rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .button_transparent:hover {
+    transform: scale(1.1);
+  }
 }
 
 

@@ -96,31 +96,63 @@ const Wrapper = styled.section`
 		margin: 0.2rem auto;
 	  }
 	@media screen and (min-width: 420px) {
+
+		// desktop -->  falta ipad
 		.header{
-			margin-bottom: 4rem;
+			position:sticky;
+			top:0;
+			padding: 1.7rem;
 			padding: 2rem 3rem;
+			z-index: 100000;
+			width: 100%;
+			background-color: var(--background-main);
+			box-shadow: -1px 0px 20px -12px rgba(0, 0, 0, 0.75);
+		}
+		.header_links{
+			display:flex;
+			justify-content: space-around;
+			flex-direction:row;
+			flex-wrap: nowrap;
 		}
 		.header_link{
-			font-size: 1.2rem;
-			height: 2.5rem;
-			width: 2.5rem;
+			margin: 0.2rem;
+			padding: 0.4rem;
+			min-width: 3rem;
+			font-size: 2rem;
+			border: none;
+			border-radius: 0;
+			transition: all 0.3s ease;
+			background-color: inherit;
+			color: var(--blue);
 		}
 		.header_link:hover{
 			cursor:pointer;
-			color: rgba(51, 131, 228, 0.9);
-			transform: scale(1.3);
+			transform: scale(1.1);
 		}
+		.link_active{
+			border: none;
+			color: red;
+			border-bottom: 0.5px solid red;
+			border-radius: 0;
+		}
+
+		//// navbar
 		.navbar{
-			padding: 2rem 5rem 0 5rem;
+			padding-top: 3rem;
 		}
 		.navbar_list {
-			display: flex;
-			flex-direction: row;
-			flex-wrap: wrap;
-			gap: 1rem;
+			margin: auto;
+			width: 80%;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			gap: 0.5rem;
 		}
 		.navbar_list_item {
 			margin: 0;
 		}
+		.button{
+			width: 80%;
+		}
+
 	}
 `;
