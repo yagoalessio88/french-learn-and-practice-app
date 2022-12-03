@@ -29,7 +29,7 @@ export { MainMenu };
 
 const Wrapper = styled.section`
 	.home {
-		padding: 2rem 0.5rem 0 0.5rem;
+		padding: 2rem 1rem 0 1rem;
 		display: flex;
         flex-direction: column;
         align_items: center;
