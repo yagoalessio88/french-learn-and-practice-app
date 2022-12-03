@@ -17,12 +17,17 @@ const VerbesMenu = () => {
 	const getVerb = (item) => {
 		setIndexKey(item)
 	};
+	const setActiveButton = (e) => {
+		const buttons = [...e.target.parentElement.getElementsByClassName("header_link")];
+		buttons.map((item) => { return item.classList.remove("link_active") });
+		e.target.classList.add("link_active");
+	};
 
 	return (
 		<Wrapper className="app_body">
 			<header className="header">
 				<ul className="header_links">
-					{initials.map((item, index) => (<button key={index} className="header_link" onClick={() => { getVerb(item) }}>{item}</button>))}
+					{initials.map((item, index) => (<button key={index} className={`header_link ${item === indexKey ? "link_active" : ""}`} onClick={(e) => { getVerb(item); setActiveButton(e) }}>{item}</button>))}
 				</ul>
 			</header>
 			<nav className="navbar">
@@ -56,7 +61,7 @@ const Wrapper = styled.section`
 		padding: 1.7rem;
 		z-index: 100000;
 		width: 100%;
-		background-color: rgb(246, 246, 246);
+		background-color: var(--background-main);
 	}
 	.header_links{
 		display:flex;
@@ -65,21 +70,19 @@ const Wrapper = styled.section`
 		flex-wrap: wrap;
 	}
 	.header_link{
-		margin: 0.3rem;
-		border-style:none;
+		margin: 0.2rem;
+		padding: 0.4rem;
+		min-width: 3rem;
 		font-size: 2rem;
-		height: 2rem;
-		width: 4rem;
+		border: 0.5px solid var(--gray);
+		border-radius: var(--radious);
 		transition: all 0.3s ease;
-		background-color: rgb(246, 246, 246);
+		background-color: white;
+		color: var(--blue);
 	}
-	.header_link:active{
-		text-decoration: none;
-		border: none;
-	}
-	.header_link:visited{
-		text-decoration: none;
-		border: none;
+	.link_active{
+		border: 0.5px solid red;
+		color: red;
 	}
 	.navbar_list {
 		padding: 0.5rem;
@@ -89,7 +92,8 @@ const Wrapper = styled.section`
 		flex-direction: column;
 	  }
 	  .navbar_list_item {
-		margin: 0.7rem auto;
+		width: 90%;
+		margin: 0.2rem auto;
 	  }
 	@media screen and (min-width: 395px) {
 		.header{
