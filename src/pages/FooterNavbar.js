@@ -40,7 +40,7 @@ const Wrapper = styled.section`
 	.homelink_desktop{
 		display:none;	
 	}
-	@media screen and (min-width: 395px) {
+	@media screen and (min-width: 420px) {
 		.navbar__icon {
 			display:none;	
 		}

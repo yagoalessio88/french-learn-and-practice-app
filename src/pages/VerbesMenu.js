@@ -95,7 +95,7 @@ const Wrapper = styled.section`
 		width: 90%;
 		margin: 0.2rem auto;
 	  }
-	@media screen and (min-width: 395px) {
+	@media screen and (min-width: 420px) {
 		.header{
 			margin-bottom: 4rem;
 			padding: 2rem 3rem;

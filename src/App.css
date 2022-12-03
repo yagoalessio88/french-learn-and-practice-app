@@ -77,7 +77,7 @@ body {
   /* background-color: rgba(34, 95, 169, 0.9); */
 }
 
-@media screen and (min-width: 395px) {
+@media screen and (min-width: 420px) {
   .button {
     width: 6rem;
     padding: 0.5rem;
@@ -114,8 +114,12 @@ body {
   background-color: var(--background-main);
 }
 
-/* @media screen and (min-width: 768px) {} */
 
 
+/* IPAD*/
+/* @media screen and (min-width: 825px) {} */
+
+/* desktop?????????????*/
+/* @media screen and (min-width: 825px) {} */
 
 /* -----------------------------  */
