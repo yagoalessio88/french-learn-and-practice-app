@@ -77,7 +77,20 @@ body {
   /* background-color: rgba(34, 95, 169, 0.9); */
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 400px) {
+  .button {
+    min-width: 7.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    text-transform: capitalize;
+  }
+
+  .button:hover {
+    transform: scale(1.05);
+  }
+}
+
+@media screen and (min-width: 913px) {
   .button {
     min-width: 7.5rem;
     padding: 0.5rem;

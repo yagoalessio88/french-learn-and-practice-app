@@ -96,8 +96,18 @@ const Wrapper = styled.section`
 		margin: 0.2rem auto;
 	  }
 	@media screen and (min-width: 420px) {
-
-		// desktop -->  falta ipad
+		.navbar{
+			padding-top: 3rem;
+		}
+		.navbar_list {
+			margin: auto;
+			width: 80%;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 0.5rem;
+		}
+	}
+	@media screen and (min-width: 915px) {
 		.header{
 			position:sticky;
 			top:0;
@@ -120,6 +130,7 @@ const Wrapper = styled.section`
 			min-width: 3rem;
 			font-size: 2rem;
 			border: none;
+			//border-bottom: 0.5px solid var(--blue);
 			border-radius: 0;
 			transition: all 0.3s ease;
 			background-color: inherit;
@@ -135,8 +146,6 @@ const Wrapper = styled.section`
 			border-bottom: 0.5px solid red;
 			border-radius: 0;
 		}
-
-		//// navbar
 		.navbar{
 			padding-top: 3rem;
 		}
@@ -151,8 +160,9 @@ const Wrapper = styled.section`
 			margin: 0;
 		}
 		.button{
-			width: 80%;
+			width: 100%;
 		}
 
 	}
+	
 `;

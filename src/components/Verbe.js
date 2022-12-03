@@ -70,23 +70,23 @@ const Verbe = () => {
 								);
 							})}
 						</ul>
-
-						{allRightAnswers && (
-							<h2 className="main-verbe_result">Félicitations!!</h2>
-						)}
 					</div>
-					<div className="button_container">
-						<button type="button" className="button" onClick={checkAnswers}>
-							Vérifier
-						</button>
 
-						<Link to={`/verbeconjugaison/${id}`} className="button link">
-							Conjugaison
-						</Link>
-						<Link to={`/verbesmenu`} className="button link">
-							Verbes
-						</Link>
-					</div>
+					{allRightAnswers && (
+						<h2 className="main-verbe_result">Félicitations!!</h2>
+					)}
+				</div>
+				<div className="button_container">
+					<button type="button" className="button" onClick={checkAnswers}>
+						Vérifier
+					</button>
+
+					<Link to={`/verbeconjugaison/${id}`} className="button link">
+						Conjugaison
+					</Link>
+					<Link to={`/verbesmenu`} className="button link">
+						Verbes
+					</Link>
 				</div>
 			</article>
 		</Wrapper>
@@ -123,7 +123,7 @@ const Wrapper = styled.section`
 	.text-input{
 		margin: 0 0.5rem;
 		height: 2rem;
-		width: 65%;
+		width: 50%;
 		font-size: 1.5rem;
 		border: none;
 		background-color: white;
@@ -133,8 +133,10 @@ const Wrapper = styled.section`
 		outline: none;
 	}
 	.button_container {
+		padding-top: 2rem;
 		display: flex;
 		justify-content: space-around;
+		flex-wrap: wrap;
 		gap: 0.5rem;
 	}
 	.wrong_answer {
@@ -145,10 +147,16 @@ const Wrapper = styled.section`
 		margin-bottom: 2rem;
 		font-size: 2.5rem;
 	}
-	@media screen and (min-width: 395px) {
+	@media screen and (min-width: 915px) {
+		.main-verbe {
+			height:100%;
+		}
 		.section-container {
 			width: 50%;
 			margin: 0 auto;
+		}
+		.main-verbe-ul_parent{
+			padding-top: 2rem;
 		}
 		.main-verbe__li-element {
 			font-size: 1.2rem;
@@ -159,6 +167,13 @@ const Wrapper = styled.section`
 		}
 		.button_container {
 			margin-top: 1.5rem;
+		}
+		.button_container {
+			width: 60%;
+			margin: auto;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			gap: 1rem;
 		}
 	}
 `;
