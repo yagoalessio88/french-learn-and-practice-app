@@ -6,16 +6,19 @@ const FooterNavbar = () => {
 	return (
 		<Wrapper>
 			<nav className="navbar">
-				<ul>
-					<li className="navbar__link__home">
+				<ul className="navbar_links">
+					<li className="navbar__link__home navbar__icon">
 						<Link to="/">
-							<BiHome className="navbar__icon" />
-							<p className="homelink_desktop">Home</p>
+							<BiHome />
 						</Link>
+					</li>
+					<li className="homelink_desktop">
+						<p >Developped by Yago Aguero <a href="https://www.linkedin.com/in/yagoaguero-88/" target="_blank" rel="noopener noreferrer">Linkedin</a>
+						</p>
 					</li>
 				</ul>
 			</nav>
-		</Wrapper>
+		</Wrapper >
 	);
 };
 
@@ -28,9 +31,11 @@ const Wrapper = styled.section`
 		position: fixed;
 		bottom: 0;
 		padding: 1rem;
+		background-color: rgb(238, 238, 238);
+	}
+	.navbar_links{
 		display: flex;
 		justify-content: space-around;
-		background-color: rgb(238, 238, 238);
 	}
 	.navbar__icon {
 		height: 2rem;
@@ -40,13 +45,15 @@ const Wrapper = styled.section`
 	.homelink_desktop{
 		display:none;	
 	}
-	@media screen and (min-width: 420px) {
+	@media screen and (min-width: 915px) {
 		.navbar__icon {
 			display:none;	
 		}
 		.homelink_desktop{
 			display:inline;
+			font-size: 0.8rem;
 		}
 	}
+	
 
 `;

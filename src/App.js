@@ -2,6 +2,7 @@ import React from "react";
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FooterNavbar } from "./pages/FooterNavbar.js";
+import { NavbarDesktop } from "./pages/NavbarDesktop";
 import { MainMenu } from "./pages/MainMenu.js";
 import { VerbesMenu } from "./pages/VerbesMenu";
 import { Verbe } from "./components/Verbe.js";
@@ -12,6 +13,7 @@ import { VerbeVoirConjugaison } from "./components/VerbeVoirConjugaison";
 function App() {
 	return (
 		<BrowserRouter>
+			<NavbarDesktop />
 			<FooterNavbar />
 			<Routes>
 				<Route path="/" element={<MainMenu />} />

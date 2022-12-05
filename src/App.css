@@ -34,6 +34,10 @@ a {
   text-decoration: none;
 }
 
+a:visited {
+  color: inherit;
+}
+
 body {
   overflow-x: hidden;
   background-color: var(--background-main);
@@ -65,7 +69,7 @@ body {
   text-transform: capitalize;
   letter-spacing: .2rem;
   background-color: rgba(54, 138, 240, 0.9);
-  color: white;
+  color: white !important;
   border-style: none;
   border-radius: var(--radious);
   box-shadow: -1px 0px 20px -12px rgba(0, 0, 0, 0.75);
@@ -91,8 +95,9 @@ body {
   }
 }
 
-@media screen and (min-width: 913px) {
+@media screen and (min-width: 915px) {
   .button {
+    font-size: 0.8rem;
     min-width: 7.5rem;
     padding: 0.5rem;
     text-align: center;
@@ -120,7 +125,7 @@ body {
   transition: all 0.3s ease;
 }
 
-@media screen and (min-width: 420px) {
+@media screen and (min-width: 915) {
 
   .button_transparent {
     min-width: 6rem;
@@ -143,6 +148,14 @@ body {
   background-color: var(--background-main);
 }
 
+@media screen and (min-width: 915px) {
+  .app_body {
+    height: calc(100vh - 8rem);
+    overflow-y: scroll;
+    width: 100%;
+    background-color: var(--background-main);
+  }
+}
 
 
 /* IPAD*/

@@ -48,8 +48,8 @@ const Verbe = () => {
 	};
 
 	return (
-		<Wrapper className="app_body">
-			<article className=" main-verbe">
+		<Wrapper className="">
+			<article className=" main-verbe app_body">
 				<div className="section-container">
 					<h3 className="main-verbe__title">{id}</h3>
 					<div className="main-verbe-ul_parent">
@@ -97,7 +97,7 @@ export { Verbe };
 
 const Wrapper = styled.section`
 	.main-verbe {
-		padding: 2rem 0.5rem 0 0.5rem;
+		//padding: 2rem 0.5rem 0 0.5rem;
 		text-align: center;
 		display: flex;
 		flex-direction: column;
@@ -150,6 +150,9 @@ const Wrapper = styled.section`
 	@media screen and (min-width: 915px) {
 		.main-verbe {
 			height:100%;
+		}
+		.main-verbe__title {
+			margin-top: 2rem;
 		}
 		.section-container {
 			width: 50%;

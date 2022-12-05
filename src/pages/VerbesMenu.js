@@ -107,16 +107,12 @@ const Wrapper = styled.section`
 			gap: 0.5rem;
 		}
 	}
-	@media screen and (min-width: 915px) {
+	@media screen and (min-width: 915px) {	
 		.header{
-			position:sticky;
-			top:0;
-			padding: 1.7rem;
-			padding: 2rem 3rem;
-			z-index: 100000;
+			position:static;
 			width: 100%;
 			background-color: var(--background-main);
-			box-shadow: -1px 0px 20px -12px rgba(0, 0, 0, 0.75);
+			padding: 1rem;
 		}
 		.header_links{
 			display:flex;
@@ -128,7 +124,7 @@ const Wrapper = styled.section`
 			margin: 0.2rem;
 			padding: 0.4rem;
 			min-width: 3rem;
-			font-size: 2rem;
+			font-size: 1rem;
 			border: none;
 			//border-bottom: 0.5px solid var(--blue);
 			border-radius: 0;
@@ -138,13 +134,15 @@ const Wrapper = styled.section`
 		}
 		.header_link:hover{
 			cursor:pointer;
-			transform: scale(1.1);
+			transform: scale(1.3);
+			border-bottom: 0.5px solid var(--blue);
 		}
 		.link_active{
 			border: none;
 			color: red;
 			border-bottom: 0.5px solid red;
 			border-radius: 0;
+			transform: scale(1.3);
 		}
 		.navbar{
 			padding-top: 3rem;
