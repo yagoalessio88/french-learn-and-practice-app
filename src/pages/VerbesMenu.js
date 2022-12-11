@@ -5,10 +5,19 @@ import { Link } from "react-router-dom";
 import { data } from "../data/conjugaison-data";
 
 const VerbesMenu = () => {
-	const verbs = data.map((item) => {
+	const verbNames = data.map((item) => {
 		return item.nombre;
 	});
-	verbs.sort();
+
+
+	////////////////////////////////////////////////////////////
+	// renombrar verbNames a orderedData y devolver item en lugar de item.nomre? 
+	// o crear otro array dependiendo de la necesidad
+
+
+
+
+	verbNames.sort();
 	let initials = [...new Set(data.map((item) => item.index))];
 	initials.sort();
 
