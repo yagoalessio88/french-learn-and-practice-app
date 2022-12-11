@@ -51,32 +51,35 @@ const Verbe = () => {
 		<Wrapper className="app_body">
 			<article className=" main-verbe ">
 				<div className="section-container">
-					<h3 className="main-verbe__title">{id}</h3>
-					<div className="main-verbe-ul_parent">
-						<ul className="main-verbe_ul">
-							{conjugaison.map((item, index) => {
-								const { first, last } = item;
-								return (
-									<li className="main-verbe__li-element" key={index}>
-										{first}
-										<input
-											className="text-input"
-											id={index}
-											type="text"
-											autoComplete="off"
-										/>
-										{last}
-									</li>
-								);
-							})}
-						</ul>
-					</div>
-
+					{!allRightAnswers && (
+						<>
+							<h3 className="main-verbe__title">{id}</h3>
+							<div className="main-verbe-ul_parent">
+								<ul className="main-verbe_ul">
+									{conjugaison.map((item, index) => {
+										const { first, last } = item;
+										return (
+											<li className="main-verbe__li-element" key={index}>
+												{first}
+												<input
+													className="text-input"
+													id={index}
+													type="text"
+													autoComplete="off"
+												/>
+												{last}
+											</li>
+										);
+									})}
+								</ul>
+							</div>
+						</>
+					)}
 					{allRightAnswers && (
 						<h2 className="main-verbe_result">Félicitations!!</h2>
 					)}
 				</div>
-				<div className="button_container">
+				{!allRightAnswers && (<div className="button_container">
 					<button type="button" className="button" onClick={checkAnswers}>
 						Vérifier
 					</button>
@@ -87,7 +90,8 @@ const Verbe = () => {
 					<Link to={`/verbesmenu`} className="button link">
 						Verbes
 					</Link>
-				</div>
+				</div>)}
+
 			</article>
 		</Wrapper>
 	);

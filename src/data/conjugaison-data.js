@@ -1,5 +1,82 @@
 export const data = [
 
+	{
+		nombre: "Ajouter",
+		index: "A",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "ajoute",
+				last: "",
+				voirConjugaison: "J'ajoute",
+			},
+			{ first: "Tu", reponse: "ajoutes", last: "", voirConjugaison: "Tu ajoutes" },
+			{
+				first: "Il",
+				reponse: "ajoute",
+				last: "",
+				voirConjugaison: "Il/Elle ajoute",
+			},
+			{ first: "On", reponse: "ajoute", last: "", voirConjugaison: "On ajoute" },
+			{
+				first: "Nous",
+				reponse: "ajoutons",
+				last: "",
+				voirConjugaison: "Nous ajoutons",
+			},
+			{
+				first: "Vous",
+				reponse: "ajoutez",
+				last: "",
+				voirConjugaison: "Vous ajoutez",
+			},
+			{
+				first: "Ils",
+				reponse: "ajoutent",
+				last: "",
+				voirConjugaison: "Ils/Elles ajoutent",
+			},
+		],
+	},
+	{
+		nombre: "Abandonner",
+		index: "A",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "abandonne",
+				last: "",
+				voirConjugaison: "J'abandonne",
+			},
+			{ first: "Tu", reponse: "abandonnes", last: "", voirConjugaison: "Tu abandonnes" },
+			{
+				first: "Il",
+				reponse: "abandonne",
+				last: "",
+				voirConjugaison: "Il/Elle abandonne",
+			},
+			{ first: "On", reponse: "abandonne", last: "", voirConjugaison: "On abandonne" },
+			{
+				first: "Nous",
+				reponse: "abandonnons",
+				last: "",
+				voirConjugaison: "Nous abandonnons",
+			},
+			{
+				first: "Vous",
+				reponse: "abandonnez",
+				last: "",
+				voirConjugaison: "Vous abandonnez",
+			},
+			{
+				first: "Ils",
+				reponse: "abandonnent",
+				last: "",
+				voirConjugaison: "Ils/Elles abandonnent",
+			},
+		],
+	},
+
 
 	{
 		nombre: "Atteindre",
@@ -1983,6 +2060,45 @@ export const data = [
 			},
 		],
 	},
+	{
+		nombre: "Déduire",
+		index: "D",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "déduis",
+				last: "",
+				voirConjugaison: "Je déduis",
+			},
+			{ first: "Tu", reponse: "déduis", last: "", voirConjugaison: "Tu déduis" },
+			{
+				first: "Il",
+				reponse: "déduit",
+				last: "",
+				voirConjugaison: "Il/Elle déduit",
+			},
+			{ first: "On", reponse: "déduit", last: "", voirConjugaison: "On déduit" },
+			{
+				first: "Nous",
+				reponse: "déduisons",
+				last: "",
+				voirConjugaison: "Nous déduisons",
+			},
+			{
+				first: "Vous",
+				reponse: "déduisez",
+				last: "",
+				voirConjugaison: "Vous déduisez",
+			},
+			{
+				first: "Ils",
+				reponse: "déduisent",
+				last: "",
+				voirConjugaison: "Ils/Elles déduisent",
+			},
+		],
+	},
+
 	{
 		nombre: "Envoyer",
 		index: "E",
