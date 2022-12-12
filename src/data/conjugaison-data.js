@@ -2676,6 +2676,44 @@ export const data = [
 		],
 	},
 	{
+		nombre: "Embêter",
+		index: "E",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "embête",
+				last: "",
+				voirConjugaison: "J'embête",
+			},
+			{ first: "Tu", reponse: "embêtes", last: "", voirConjugaison: "Tu embêtes" },
+			{
+				first: "Il",
+				reponse: "embête",
+				last: "",
+				voirConjugaison: "Il/Elle embête",
+			},
+			{ first: "On", reponse: "embête", last: "", voirConjugaison: "On embête" },
+			{
+				first: "Nous",
+				reponse: "embêtons",
+				last: "",
+				voirConjugaison: "Nous embêtons",
+			},
+			{
+				first: "Vous",
+				reponse: "embêtez",
+				last: "",
+				voirConjugaison: "Vous embêtez",
+			},
+			{
+				first: "Ils",
+				reponse: "embêtent",
+				last: "",
+				voirConjugaison: "Ils/Elles embêtent",
+			},
+		],
+	},
+	{
 		nombre: "Enlever",
 		index: "E",
 		conjugaison: [
@@ -4143,6 +4181,44 @@ export const data = [
 		],
 	},
 	{
+		nombre: "Relancer",
+		index: "R",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "relance",
+				last: "",
+				voirConjugaison: "Je relance",
+			},
+			{ first: "Tu", reponse: "relances", last: "", voirConjugaison: "Tu relances" },
+			{
+				first: "Il",
+				reponse: "relance",
+				last: "",
+				voirConjugaison: "Il/Elle relance",
+			},
+			{ first: "On", reponse: "relance", last: "", voirConjugaison: "On relance" },
+			{
+				first: "Nous",
+				reponse: "relançons",
+				last: "",
+				voirConjugaison: "Nous relançons",
+			},
+			{
+				first: "Vous",
+				reponse: "relancez",
+				last: "",
+				voirConjugaison: "Vous relancez",
+			},
+			{
+				first: "Ils",
+				reponse: "relancent",
+				last: "",
+				voirConjugaison: "Ils/Elles relancent",
+			},
+		],
+	},
+	{
 		nombre: "Rajouter",
 		index: "R",
 		conjugaison: [
@@ -4899,6 +4975,44 @@ export const data = [
 				reponse: "se reposent",
 				last: "",
 				voirConjugaison: "Ils/Elles se reposent",
+			},
+		],
+	},
+	{
+		nombre: "S'assurer",
+		index: "S",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "m'assure",
+				last: "",
+				voirConjugaison: "Je m'assure",
+			},
+			{ first: "Tu", reponse: "t'assures", last: "", voirConjugaison: "Tu t'assures" },
+			{
+				first: "Il",
+				reponse: "s'assure",
+				last: "",
+				voirConjugaison: "Il/Elle s'assure",
+			},
+			{ first: "On", reponse: "s'assure", last: "", voirConjugaison: "On s'assure" },
+			{
+				first: "Nous",
+				reponse: "nous assurons",
+				last: "",
+				voirConjugaison: "Nous nous assurons",
+			},
+			{
+				first: "Vous",
+				reponse: "vous assurez",
+				last: "",
+				voirConjugaison: "Vous vous assurez",
+			},
+			{
+				first: "Ils",
+				reponse: "s'assurent",
+				last: "",
+				voirConjugaison: "Ils/Elles s'assurent",
 			},
 		],
 	},
