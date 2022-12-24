@@ -226,6 +226,44 @@ export const data = [
 		],
 	},
 	{
+		nombre: "Amener",
+		index: "A",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "amène",
+				last: "",
+				voirConjugaison: "J'amène",
+			},
+			{ first: "Tu", reponse: "amènes", last: "", voirConjugaison: "Tu amènes" },
+			{
+				first: "Il",
+				reponse: "amène",
+				last: "",
+				voirConjugaison: "Il/Elle amène",
+			},
+			{ first: "On", reponse: "amène", last: "", voirConjugaison: "On amène" },
+			{
+				first: "Nous",
+				reponse: "amenons",
+				last: "",
+				voirConjugaison: "Nous amenons",
+			},
+			{
+				first: "Vous",
+				reponse: "amenez",
+				last: "",
+				voirConjugaison: "Vous amenez",
+			},
+			{
+				first: "Ils",
+				reponse: "amènent",
+				last: "",
+				voirConjugaison: "Ils/Elles amènent",
+			},
+		],
+	},
+	{
 		nombre: "Aider",
 		index: "A",
 		conjugaison: [
@@ -745,6 +783,44 @@ export const data = [
 		],
 	},
 	{
+		nombre: "Bugger",
+		index: "B",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "bugge",
+				last: "",
+				voirConjugaison: "Je bugge",
+			},
+			{ first: "Tu", reponse: "bugges", last: "", voirConjugaison: "Tu bugges" },
+			{
+				first: "Il",
+				reponse: "bugge",
+				last: "",
+				voirConjugaison: "Il/Elle bugge",
+			},
+			{ first: "On", reponse: "bugge", last: "", voirConjugaison: "On bugge" },
+			{
+				first: "Nous",
+				reponse: "buggons",
+				last: "",
+				voirConjugaison: "Nous buggons",
+			},
+			{
+				first: "Vous",
+				reponse: "buggez",
+				last: "",
+				voirConjugaison: "Vous buggez",
+			},
+			{
+				first: "Ils",
+				reponse: "buggent",
+				last: "",
+				voirConjugaison: "Ils/Elles buggent",
+			},
+		],
+	},
+	{
 		nombre: "Bosser",
 		index: "B",
 		conjugaison: [
@@ -980,6 +1056,44 @@ export const data = [
 				reponse: "choisissent",
 				last: "",
 				voirConjugaison: "Ils/Elles choisissent",
+			},
+		],
+	},
+	{
+		nombre: "Cocher",
+		index: "C",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "coche",
+				last: "",
+				voirConjugaison: "Je coche",
+			},
+			{ first: "Tu", reponse: "coches", last: "", voirConjugaison: "Tu coches" },
+			{
+				first: "Il",
+				reponse: "coche",
+				last: "",
+				voirConjugaison: "Il/Elle coche",
+			},
+			{ first: "On", reponse: "coche", last: "", voirConjugaison: "On coche" },
+			{
+				first: "Nous",
+				reponse: "cochons",
+				last: "",
+				voirConjugaison: "Nous cochons",
+			},
+			{
+				first: "Vous",
+				reponse: "cochez",
+				last: "",
+				voirConjugaison: "Vous cochez",
+			},
+			{
+				first: "Ils",
+				reponse: "cochent",
+				last: "",
+				voirConjugaison: "Ils/Elles cochent",
 			},
 		],
 	},
@@ -1669,6 +1783,82 @@ export const data = [
 		],
 	},
 	{
+		nombre: "Décocher",
+		index: "D",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "décoche",
+				last: "",
+				voirConjugaison: "Je décoche",
+			},
+			{ first: "Tu", reponse: "décoches", last: "", voirConjugaison: "Tu décoches" },
+			{
+				first: "Il",
+				reponse: "décoche",
+				last: "",
+				voirConjugaison: "Il/Elle décoche",
+			},
+			{ first: "On", reponse: "décoche", last: "", voirConjugaison: "On décoche" },
+			{
+				first: "Nous",
+				reponse: "décochons",
+				last: "",
+				voirConjugaison: "Nous décochons",
+			},
+			{
+				first: "Vous",
+				reponse: "décochez",
+				last: "",
+				voirConjugaison: "Vous décochez",
+			},
+			{
+				first: "Ils",
+				reponse: "décochent",
+				last: "",
+				voirConjugaison: "Ils/Elles décochent",
+			},
+		],
+	},
+	{
+		nombre: "Dépenser",
+		index: "D",
+		conjugaison: [
+			{
+				first: "Je",
+				reponse: "dépense",
+				last: "",
+				voirConjugaison: "Je dépense",
+			},
+			{ first: "Tu", reponse: "dépenses", last: "", voirConjugaison: "Tu dépenses" },
+			{
+				first: "Il",
+				reponse: "dépense",
+				last: "",
+				voirConjugaison: "Il/Elle dépense",
+			},
+			{ first: "On", reponse: "dépense", last: "", voirConjugaison: "On dépense" },
+			{
+				first: "Nous",
+				reponse: "dépensons",
+				last: "",
+				voirConjugaison: "Nous dépensons",
+			},
+			{
+				first: "Vous",
+				reponse: "dépensez",
+				last: "",
+				voirConjugaison: "Vous dépensez",
+			},
+			{
+				first: "Ils",
+				reponse: "dépensent",
+				last: "",
+				voirConjugaison: "Ils/Elles dépensent",
+			},
+		],
+	},
+	{
 		nombre: "Devoir",
 		index: "D",
 		conjugaison: [
@@ -2134,6 +2324,44 @@ export const data = [
 				reponse: "envoient",
 				last: "",
 				voirConjugaison: "Ils/Elles envoient",
+			},
+		],
+	},
+	{
+		nombre: "Économiser",
+		index: "E",
+		conjugaison: [
+			{
+				first: "J'",
+				reponse: "économise",
+				last: "",
+				voirConjugaison: "J'économise",
+			},
+			{ first: "Tu", reponse: "économises", last: "", voirConjugaison: "Tu économises" },
+			{
+				first: "Il",
+				reponse: "économise",
+				last: "",
+				voirConjugaison: "Il/Elle économise",
+			},
+			{ first: "On", reponse: "économise", last: "", voirConjugaison: "On économise" },
+			{
+				first: "Nous",
+				reponse: "économisons",
+				last: "",
+				voirConjugaison: "Nous économisons",
+			},
+			{
+				first: "Vous",
+				reponse: "économisez",
+				last: "",
+				voirConjugaison: "Vous économisez",
+			},
+			{
+				first: "Ils",
+				reponse: "économisent",
+				last: "",
+				voirConjugaison: "Ils/Elles économisent",
 			},
 		],
 	},
