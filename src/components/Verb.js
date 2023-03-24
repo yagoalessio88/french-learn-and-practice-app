@@ -7,8 +7,8 @@ import { Link } from "react-router-dom";
 
 const Verb = () => {
 	const { id } = useParams();
-	const verbo = data.filter((element) => element.nombre === id)[0];
-	const { conjugaison } = verbo;
+	const verbo = data.filter((element) => element.name === id)[0];
+	const { conjugation } = verbo;
 	const [allRightAnswers, setAllRightAnswers] = useState(false);
 
 	const checkAnswers = () => {
@@ -17,8 +17,8 @@ const Verb = () => {
 		const listUserValues = listElements.map((item) => {
 			return item.value;
 		});
-		const answers = conjugaison.map((item) => {
-			return item.reponse;
+		const answers = conjugation.map((item) => {
+			return item.answer;
 		});
 
 		const results = answers.map((item, index) => {
@@ -56,7 +56,7 @@ const Verb = () => {
 							<h3 className="main-verbe__title">{id}</h3>
 							<div className="main-verbe-ul_parent">
 								<ul className="main-verbe_ul">
-									{conjugaison.map((item, index) => {
+									{conjugation.map((item, index) => {
 										const { first, last } = item;
 										return (
 											<li className="main-verbe__li-element" key={index}>

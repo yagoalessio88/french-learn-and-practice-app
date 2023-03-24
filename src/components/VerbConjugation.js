@@ -6,15 +6,15 @@ import { Link } from "react-router-dom";
 
 function VerbConjugation() {
 	const { id } = useParams();
-	const verbo = data.filter((element) => element.nombre === id)[0];
-	const { conjugaison } = verbo;
+	const verbo = data.filter((element) => element.name === id)[0];
+	const { conjugation } = verbo;
 
 	return (
 		<Wrapper>
 			<section className="app_body">
 				<ul className="conjugaison_container">
-					{conjugaison.map((item, index) => {
-						return <li className="conjugaison__li-element" key={index}>{item.voirConjugaison}</li>;
+					{conjugation.map((item, index) => {
+						return <li className="conjugaison__li-element" key={index}>{item.showConjugation}</li>;
 					})}
 				</ul>
 				<div className="button_container">

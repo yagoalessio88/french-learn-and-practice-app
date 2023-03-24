@@ -6,7 +6,7 @@ import { data } from "../data/verbsConjugationSimplePresent-data.js";
 
 const VerbsMenu = () => {
 	const verbNames = data.map((item) => {
-		return item.nombre;
+		return item.name;
 	});
 
 
@@ -49,8 +49,8 @@ const VerbsMenu = () => {
 						if (item.index === indexKey) {
 							return (
 								<li className="navbar_list_item" key={key}>
-									<Link to={`/verb/${item.nombre}`} className="button">
-										{item.nombre}
+									<Link to={`/verb/${item.name}`} className="button">
+										{item.name}
 									</Link>
 								</li>
 							)
