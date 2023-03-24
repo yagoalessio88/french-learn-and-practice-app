@@ -1,11 +1,11 @@
 import React from "react";
 import styled from "styled-components";
-import { data } from "../data/conjugaison-data.js";
+import { data } from "../data/verbsConjugationSimplePresent-data.js";
 import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 
-const Verbe = () => {
+const Verb = () => {
 	const { id } = useParams();
 	const verbo = data.filter((element) => element.nombre === id)[0];
 	const { conjugaison } = verbo;
@@ -84,10 +84,10 @@ const Verbe = () => {
 						Vérifier
 					</button>
 
-					<Link to={`/verbeconjugaison/${id}`} className="button link">
+					<Link to={`/verb-conjugation/${id}`} className="button link">
 						Conjugaison
 					</Link>
-					<Link to={`/verbesmenu`} className="button link">
+					<Link to={`/verbs-menu`} className="button link">
 						Verbes
 					</Link>
 				</div>)}
@@ -97,7 +97,7 @@ const Verbe = () => {
 	);
 };
 
-export { Verbe };
+export { Verb };
 
 const Wrapper = styled.section`
 	.main-verbe {

@@ -2,9 +2,9 @@ import React from "react";
 import { useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { data } from "../data/conjugaison-data";
+import { data } from "../data/verbsConjugationSimplePresent-data.js";
 
-const VerbesMenu = () => {
+const VerbsMenu = () => {
 	const verbNames = data.map((item) => {
 		return item.nombre;
 	});
@@ -14,7 +14,11 @@ const VerbesMenu = () => {
 	// renombrar verbNames a orderedData y devolver item en lugar de item.nomre? 
 	// o crear otro array dependiendo de la necesidad
 
+	// import de la lista de verbos en presente
 
+	// crear un useState que maneje el nombre de la variable data
+
+	// enviar la variable correspondiente a data en el header de la url que dirige a verbesMenu
 
 
 	verbNames.sort();
@@ -45,7 +49,7 @@ const VerbesMenu = () => {
 						if (item.index === indexKey) {
 							return (
 								<li className="navbar_list_item" key={key}>
-									<Link to={`/verbesmenu/${item.nombre}`} className="button">
+									<Link to={`/verb/${item.nombre}`} className="button">
 										{item.nombre}
 									</Link>
 								</li>
@@ -61,7 +65,7 @@ const VerbesMenu = () => {
 	);
 };
 
-export { VerbesMenu };
+export { VerbsMenu };
 
 const Wrapper = styled.section`
 	.header{

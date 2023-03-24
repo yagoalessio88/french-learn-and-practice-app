@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { BiSearch } from "react-icons/bi";
 
-function RechercherVerbes() {
+function VerbsSearch() {
 	// CREATE A CONTROLLED INPUT FOR  SEARCHING FUNCTIONALITY
 	return (
 		<Wrapper>
@@ -16,7 +16,7 @@ function RechercherVerbes() {
 	);
 }
 
-export { RechercherVerbes };
+export { VerbsSearch };
 
 const Wrapper = styled.section`
 	.app_body {

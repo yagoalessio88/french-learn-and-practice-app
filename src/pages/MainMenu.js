@@ -10,7 +10,7 @@ const MainMenu = () => {
 				<p className="home_text">Profitez-en pour pratiquer la conjugaison de plein de verbes à l'infinitif!</p>
 				<ul className="home_list">
 					<li className="home_list_item">
-						<Link to="/verbesmenu" className="button">
+						<Link to="/verbs-menu" className="button">
 							Verbes
 						</Link>
 					</li>

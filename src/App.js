@@ -4,10 +4,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { FooterNavbar } from "./pages/FooterNavbar.js";
 import { NavbarDesktop } from "./pages/NavbarDesktop";
 import { MainMenu } from "./pages/MainMenu.js";
-import { VerbesMenu } from "./pages/VerbesMenu";
-import { Verbe } from "./components/Verbe.js";
-import { RechercherVerbes } from "./components/RechercherVerbes";
-import { VerbeVoirConjugaison } from "./components/VerbeVoirConjugaison";
+import { VerbsMenu } from "./pages/VerbsMenu";
+import { Verb } from "./components/Verb.js";
+import { VerbsSearch } from "./components/VerbsSearch";
+import { VerbConjugation } from "./components/VerbConjugation";
 
 
 function App() {
@@ -17,10 +17,10 @@ function App() {
 			<FooterNavbar />
 			<Routes>
 				<Route path="/" element={<MainMenu />} />
-				<Route path="/verbesmenu" element={<VerbesMenu />} />
-				<Route path="/rechercherverbes" element={<RechercherVerbes />}></Route>
-				<Route path="verbesmenu/:id" element={<Verbe />} />
-				<Route path="verbeconjugaison/:id" element={<VerbeVoirConjugaison />} />
+				<Route path="/verbs-menu" element={<VerbsMenu />} />
+				<Route path="/verbs-search" element={< VerbsSearch />}></Route>
+				<Route path="/verb/:id" element={<Verb />} />
+				<Route path="/verb-conjugation/:id" element={<VerbConjugation />} />
 				<Route path="*" />
 			</Routes>
 		</BrowserRouter>
