@@ -1,28 +1,25 @@
-import React from "react";
-import { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { data } from "../data/verbsConjugationSimplePresent-data.js";
+import { data as simplePresent } from "../data/verbsConjugationSimplePresent-data.js";
+import { data as simpleFuture } from "../data/verbsConjugationSimpleFuture-data.js";
+import { useParams } from "react-router-dom";
+import { useDataContext } from "../context/DataContext.js";
+
 
 const VerbsMenu = () => {
-	const verbNames = data.map((item) => {
+	// params hook
+	const { tense } = useParams();
+	// context hook
+	const { verbsData } = useDataContext();
+	console.log(verbsData);
+
+	// verbs functionality
+	const verbNames = verbsData.map((item) => {
 		return item.name;
 	});
-
-
-	////////////////////////////////////////////////////////////
-	// renombrar verbNames a orderedData y devolver item en lugar de item.nomre? 
-	// o crear otro array dependiendo de la necesidad
-
-	// import de la lista de verbos en presente
-
-	// crear un useState que maneje el nombre de la variable data
-
-	// enviar la variable correspondiente a data en el header de la url que dirige a verbesMenu
-
-
 	verbNames.sort();
-	let initials = [...new Set(data.map((item) => item.index))];
+	let initials = [...new Set(verbsData.map((item) => item.index))];
 	initials.sort();
 
 
@@ -45,11 +42,11 @@ const VerbsMenu = () => {
 			</header>
 			<nav className="navbar">
 				<ul className="navbar_list">
-					{data.map((item, key) => {
+					{verbsData.map((item, key) => {
 						if (item.index === indexKey) {
 							return (
 								<li className="navbar_list_item" key={key}>
-									<Link to={`/verb/${item.name}`} className="button">
+									<Link to={`/verb/${item.name}/`} className="button">
 										{item.name}
 									</Link>
 								</li>

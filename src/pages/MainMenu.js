@@ -1,16 +1,22 @@
-import React from "react";
+import React, { useReducer } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import { data as simplePresent } from "../data/verbsConjugationSimplePresent-data.js";
+
+
 
 const MainMenu = () => {
+
+
+
 	return (
 		<Wrapper className="app_body">
 			<nav className="home">
 				<h1 className="home_title">Bienvenue!</h1>
-				<p className="home_text">Profitez-en pour pratiquer la conjugaison de plein de verbes à l'infinitif!</p>
+				<p className="home_text">Profitez-en pour pratiquer la conjugaison de plein de verbes!</p>
 				<ul className="home_list">
 					<li className="home_list_item">
-						<Link to="/verbs-menu" className="button">
+						<Link to="/tense" className="button" onClick={() => { }}>
 							Verbes
 						</Link>
 					</li>
@@ -56,11 +62,7 @@ const Wrapper = styled.section`
 		margin: 0.7rem auto;
 	  }
 	  @media screen and (min-width: 395px) {
-		.home{
-			
+		.home{	
 		}
-		
 	  }
-
-	
 `;

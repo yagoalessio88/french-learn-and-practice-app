@@ -8,6 +8,10 @@ import { VerbsMenu } from "./pages/VerbsMenu";
 import { Verb } from "./components/Verb.js";
 import { VerbsSearch } from "./components/VerbsSearch";
 import { VerbConjugation } from "./components/VerbConjugation";
+import { ConjugationMenu } from "./pages/ConjugationMenu";
+
+
+
 
 
 function App() {
@@ -16,10 +20,11 @@ function App() {
 			<NavbarDesktop />
 			<FooterNavbar />
 			<Routes>
-				<Route path="/" element={<MainMenu />} />
-				<Route path="/verbs-menu" element={<VerbsMenu />} />
-				<Route path="/verbs-search" element={< VerbsSearch />}></Route>
-				<Route path="/verb/:id" element={<Verb />} />
+				<Route path="/" element={< MainMenu />} />
+				<Route path="/tense" element={< ConjugationMenu />} />
+				<Route path="/verbs-menu/:tense" element={< VerbsMenu />} />
+				<Route path="/verbs-search" element={< VerbsSearch />} />
+				<Route path="/verb/:id" element={< Verb />} />
 				<Route path="/verb-conjugation/:id" element={<VerbConjugation />} />
 				<Route path="*" />
 			</Routes>

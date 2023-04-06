@@ -1,13 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import styled from "styled-components";
-import { data } from "../data/verbsConjugationSimplePresent-data.js";
 import { useParams } from "react-router-dom";
-import { useState } from "react";
 import { Link } from "react-router-dom";
+import { useDataContext } from "../context/DataContext.js";
 
 const Verb = () => {
-	const { id } = useParams();
-	const verbo = data.filter((element) => element.name === id)[0];
+	// params hook
+	const { id, tense } = useParams();
+	// context hook
+	const { verbsData, verbsDataId } = useDataContext();
+
+	const verbo = verbsData.filter((element) => element.name === id)[0];
+	console.log(verbo);
 	const { conjugation } = verbo;
 	const [allRightAnswers, setAllRightAnswers] = useState(false);
 
@@ -87,8 +91,8 @@ const Verb = () => {
 					<Link to={`/verb-conjugation/${id}`} className="button link">
 						Conjugaison
 					</Link>
-					<Link to={`/verbs-menu`} className="button link">
-						Verbes
+					<Link to={`/verbs-menu/${verbsDataId}`} className="button link">
+						Liste de Verbes
 					</Link>
 				</div>)}
 

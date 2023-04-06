@@ -1,12 +1,15 @@
 import React from "react";
 import styled from "styled-components";
-import { data } from "../data/verbsConjugationSimplePresent-data.js";
+import { useDataContext } from "../context/DataContext.js";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 function VerbConjugation() {
+	// params hook
 	const { id } = useParams();
-	const verbo = data.filter((element) => element.name === id)[0];
+	// context hook
+	const { verbsData } = useDataContext();
+	const verbo = verbsData.filter((element) => element.name === id)[0];
 	const { conjugation } = verbo;
 
 	return (

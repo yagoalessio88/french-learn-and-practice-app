@@ -12,7 +12,7 @@ const NavbarDesktop = () => {
 						</Link>
 					</li>
 					<li className="navbar__link__home">
-						<Link to="/verbs-menu" className="">
+						<Link to="/tense" className="">
 							Verbes
 						</Link>
 					</li>

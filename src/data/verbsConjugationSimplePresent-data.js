@@ -1,5 +1,4 @@
 export const data = [
-
 	{
 		name: "Ajouter",
 		index: "A",
