@@ -1,15 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { data as simplePresent } from "../data/verbsConjugationSimplePresent-data.js";
-import { data as simpleFuture } from "../data/verbsConjugationSimpleFuture-data.js";
-import { useParams } from "react-router-dom";
 import { useDataContext } from "../context/DataContext.js";
 
 
 const VerbsMenu = () => {
-	// params hook
-	const { tense } = useParams();
 	// context hook
 	const { verbsData } = useDataContext();
 	console.log(verbsData);

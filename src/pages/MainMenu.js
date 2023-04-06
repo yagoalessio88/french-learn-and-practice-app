@@ -1,13 +1,10 @@
-import React, { useReducer } from "react";
+import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { data as simplePresent } from "../data/verbsConjugationSimplePresent-data.js";
 
 
 
 const MainMenu = () => {
-
-
 
 	return (
 		<Wrapper className="app_body">

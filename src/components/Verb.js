@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { useParams } from "react-router-dom";
 import { Link } from "react-router-dom";
@@ -6,7 +6,7 @@ import { useDataContext } from "../context/DataContext.js";
 
 const Verb = () => {
 	// params hook
-	const { id, tense } = useParams();
+	const { id } = useParams();
 	// context hook
 	const { verbsData, verbsDataId } = useDataContext();
 
