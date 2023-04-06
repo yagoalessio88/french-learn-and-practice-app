@@ -11,7 +11,6 @@ const Verb = () => {
 	const { verbsData, verbsDataId } = useDataContext();
 
 	const verbo = verbsData.filter((element) => element.name === id)[0];
-	console.log(verbo);
 	const { conjugation } = verbo;
 	const [allRightAnswers, setAllRightAnswers] = useState(false);
 

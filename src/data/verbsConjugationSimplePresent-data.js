@@ -3016,7 +3016,6 @@ export const data = [
 			},
 		],
 	},
-
 	{
 		name: "Faire",
 		index: "F",
@@ -3253,44 +3252,6 @@ export const data = [
 				answer: "gardent",
 				last: "",
 				showConjugation: "Ils/Elles gardent",
-			},
-		],
-	},
-	{
-		name: "Inquiéter",
-		index: "I",
-		conjugation: [
-			{
-				first: "J'",
-				answer: "inquiète",
-				last: "",
-				showConjugation: "J'inquiète",
-			},
-			{ first: "Tu", answer: "inquiètes", last: "", showConjugation: "Tu inquiètes" },
-			{
-				first: "Il",
-				answer: "inquiète",
-				last: "",
-				showConjugation: "Il/Elle inquiète",
-			},
-			{ first: "On", answer: "inquiète", last: "", showConjugation: "On inquiète" },
-			{
-				first: "Nous",
-				answer: "inquiétons",
-				last: "",
-				showConjugation: "Nous inquiétons",
-			},
-			{
-				first: "Vous",
-				answer: "inquiétez",
-				last: "",
-				showConjugation: "Vous inquiétez",
-			},
-			{
-				first: "Ils",
-				answer: "inquiètent",
-				last: "",
-				showConjugation: "Ils/Elles inquiètent",
 			},
 		],
 	},
@@ -5168,6 +5129,44 @@ export const data = [
 		],
 	},
 	{
+		name: "S'Inquiéter",
+		index: "S",
+		conjugation: [
+			{
+				first: "Je",
+				answer: "m'inquiète",
+				last: "",
+				showConjugation: "Je m'inquiète",
+			},
+			{ first: "Tu", answer: "t'inquiètes", last: "", showConjugation: "Tu t'inquiètes" },
+			{
+				first: "Il",
+				answer: "s'inquiète",
+				last: "",
+				showConjugation: "Il/Elle s'inquiète",
+			},
+			{ first: "On", answer: "s'inquiète", last: "", showConjugation: "On s'inquiète" },
+			{
+				first: "Nous",
+				answer: "nous inquiétons",
+				last: "",
+				showConjugation: "Nous nous inquiétons",
+			},
+			{
+				first: "Vous",
+				answer: "vous inquiétez",
+				last: "",
+				showConjugation: "Vous vous inquiétez",
+			},
+			{
+				first: "Ils",
+				answer: "s'inquiètent",
+				last: "",
+				showConjugation: "Ils/Elles s'inquiètent",
+			},
+		],
+	},
+	{
 		name: "Se reposer",
 		index: "S",
 		conjugation: [
@@ -5358,7 +5357,7 @@ export const data = [
 		],
 	},
 	{
-		name: "Souhiater",
+		name: "Souhaiter",
 		index: "S",
 		conjugation: [
 			{
