@@ -59,12 +59,9 @@ const Wrapper = styled.section`
 	  .home_list_item {
 		margin: 0.7rem auto;
 	  }
-	  @media screen and (min-width: 395px) {
-		.home{
-			
+	  @media screen and (min-width: 915px) {
+		.button {
+		  min-width: 14rem;
 		}
-		
-	  }
-
-	
-`;
+	}
+}`;

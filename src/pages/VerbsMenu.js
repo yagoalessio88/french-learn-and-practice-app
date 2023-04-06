@@ -7,7 +7,6 @@ import { useDataContext } from "../context/DataContext.js";
 const VerbsMenu = () => {
 	// context hook
 	const { verbsData } = useDataContext();
-	console.log(verbsData);
 
 	// verbs functionality
 	const verbNames = verbsData.map((item) => {
