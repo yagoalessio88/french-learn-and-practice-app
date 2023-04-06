@@ -38,6 +38,82 @@ export const data = [
         ],
     },
     {
+        name: "Ajouter",
+        index: "A",
+        conjugation: [
+            {
+                first: "J'",
+                answer: "ajouterai",
+                last: "",
+                showConjugation: "J'ajouterai",
+            },
+            { first: "Tu", answer: "", last: "ajouteras", showConjugation: "Tu ajouteras" },
+            {
+                first: "Il",
+                answer: "ajoutera",
+                last: "",
+                showConjugation: "Il/Elle ajoutera",
+            },
+            { first: "On", answer: "ajoutera", last: "", showConjugation: "On ajoutera" },
+            {
+                first: "Nous",
+                answer: "ajouterons",
+                last: "",
+                showConjugation: "Nous ajouterons",
+            },
+            {
+                first: "Vous",
+                answer: "ajouterez",
+                last: "",
+                showConjugation: "Vous ajouterez",
+            },
+            {
+                first: "Ils",
+                answer: "ajouteront",
+                last: "",
+                showConjugation: "Ils/Elles ajouteront",
+            },
+        ],
+    },
+    {
+        name: "Abandonner",
+        index: "A",
+        conjugation: [
+            {
+                first: "J'",
+                answer: "abandonnerai",
+                last: "",
+                showConjugation: "J'abandonnerai",
+            },
+            { first: "Tu", answer: "abandonneras", last: "", showConjugation: "Tu abandonneras" },
+            {
+                first: "Il",
+                answer: "abandonnera",
+                last: "",
+                showConjugation: "Il/Elle abandonnera",
+            },
+            { first: "On", answer: "abandonnera", last: "", showConjugation: "On abandonnera" },
+            {
+                first: "Nous",
+                answer: "abandonnerons",
+                last: "",
+                showConjugation: "Nous abandonnerons",
+            },
+            {
+                first: "Vous",
+                answer: "abandonnerez",
+                last: "",
+                showConjugation: "Vous abandonnerez",
+            },
+            {
+                first: "Ils",
+                answer: "abandonneront",
+                last: "",
+                showConjugation: "Ils/Elles abandonneront",
+            },
+        ],
+    },
+    {
         name: "Balader",
         index: "B",
         conjugation: [
@@ -110,6 +186,44 @@ export const data = [
                 answer: "changeront",
                 last: "",
                 showConjugation: "Ils/Elles changeront",
+            },
+        ],
+    },
+    {
+        name: "Devenir",
+        index: "D",
+        conjugation: [
+            {
+                first: "Je",
+                answer: "deviendrai",
+                last: "",
+                showConjugation: "Je deviendrai",
+            },
+            { first: "Tu", answer: "deviendras", last: "", showConjugation: "Tu deviendras" },
+            {
+                first: "Il",
+                answer: "deviendra",
+                last: "",
+                showConjugation: "Il/Elle deviendra",
+            },
+            { first: "On", answer: "deviendra", last: "", showConjugation: "On deviendra" },
+            {
+                first: "Nous",
+                answer: "deviendrons",
+                last: "",
+                showConjugation: "Nous deviendrons",
+            },
+            {
+                first: "Vous",
+                answer: "deviendrez",
+                last: "",
+                showConjugation: "Vous deviendrez",
+            },
+            {
+                first: "Ils",
+                answer: "deviendront",
+                last: "",
+                showConjugation: "Ils/Elles deviendront",
             },
         ],
     },
@@ -228,6 +342,44 @@ export const data = [
         ],
     },
     {
+        name: "Jouer",
+        index: "J",
+        conjugation: [
+            {
+                first: "Je",
+                answer: "jouerai",
+                last: "",
+                showConjugation: "Je jouerai",
+            },
+            { first: "Tu", answer: "joueras", last: "", showConjugation: "Tu joueras" },
+            {
+                first: "Il",
+                answer: "jouera",
+                last: "",
+                showConjugation: "Il/Elle jouera",
+            },
+            { first: "On", answer: "jouera", last: "", showConjugation: "On jouera" },
+            {
+                first: "Nous",
+                answer: "jouerons",
+                last: "",
+                showConjugation: "Nous jouerons",
+            },
+            {
+                first: "Vous",
+                answer: "jouerez",
+                last: "",
+                showConjugation: "Vous jouerez",
+            },
+            {
+                first: "Ils",
+                answer: "joueront",
+                last: "",
+                showConjugation: "Ils/Elles joueront",
+            },
+        ],
+    },
+    {
         name: "Montrer",
         index: "M",
         conjugation: [
@@ -262,6 +414,44 @@ export const data = [
                 answer: "montreront",
                 last: "",
                 showConjugation: "Ils/Elles montreront",
+            },
+        ],
+    },
+    {
+        name: "Nettoyer",
+        index: "N",
+        conjugation: [
+            {
+                first: "Je",
+                answer: "nettoierai",
+                last: "",
+                showConjugation: "Je nettoierai",
+            },
+            { first: "Tu", answer: "nettoieras", last: "", showConjugation: "Tu nettoieras" },
+            {
+                first: "Il",
+                answer: "nettoiera",
+                last: "",
+                showConjugation: "Il/Elle nettoiera",
+            },
+            { first: "On", answer: "nettoiera", last: "", showConjugation: "On nettoiera" },
+            {
+                first: "Nous",
+                answer: "nettoierons",
+                last: "",
+                showConjugation: "Nous nettoierons",
+            },
+            {
+                first: "Vous",
+                answer: "nettoierez",
+                last: "",
+                showConjugation: "Vous nettoierez",
+            },
+            {
+                first: "Ils",
+                answer: "nettoieront",
+                last: "",
+                showConjugation: "Ils/Elles nettoierez",
             },
         ],
     },
@@ -302,10 +492,275 @@ export const data = [
                 showConjugation: "Ils/Elles ouvriront",
             },
         ],
+    },
+    {
+        name: "Payer",
+        index: "P",
+        conjugation: [
+            {
+                first: "Je",
+                answer: "paierai",
+                last: "",
+                showConjugation: "Je paierai",
+            },
+            { first: "Tu", answer: "paieras", last: "", showConjugation: "Tu paieras" },
+            {
+                first: "Il",
+                answer: "paiera",
+                last: "",
+                showConjugation: "Il/Elle paiera",
+            },
+            { first: "On", answer: "", last: "paiera", showConjugation: "On paiera" },
+            {
+                first: "Nous",
+                answer: "paierons",
+                last: "",
+                showConjugation: "Nous paierons",
+            },
+            {
+                first: "Vous",
+                answer: "paierez",
+                last: "",
+                showConjugation: "Vous paierez",
+            },
+            {
+                first: "Ils",
+                answer: "paieront",
+                last: "",
+                showConjugation: "Ils/Elles paieront",
+            },
+        ],
+    },
+    {
+        name: "Quitter",
+        index: "Q",
+        conjugation: [
+            {
+                first: "Je",
+                answer: "quitterai",
+                last: "",
+                showConjugation: "Je quitterai",
+            },
+            { first: "Tu", answer: "quitteras", last: "", showConjugation: "Tu quitteras" },
+            {
+                first: "Il",
+                answer: "quittera",
+                last: "",
+                showConjugation: "Il/Elle quittera",
+            },
+            { first: "On", answer: "quittera", last: "", showConjugation: "On quittera" },
+            {
+                first: "Nous",
+                answer: "quitterons",
+                last: "",
+                showConjugation: "Nous quitterons",
+            },
+            {
+                first: "Vous",
+                answer: "quitterez",
+                last: "",
+                showConjugation: "Vous quitterez",
+            },
+            {
+                first: "Ils",
+                answer: "quitteront",
+                last: "",
+                showConjugation: "Ils/Elles quitteront",
+            },
+        ],
+    },
+    {
+        name: "Regarder",
+        index: "R",
+        conjugation: [
+            {
+                first: "Je",
+                answer: "regarderai",
+                last: "",
+                showConjugation: "Je regarderai",
+            },
+            { first: "Tu", answer: "regarderas", last: "", showConjugation: "Tu regarderas" },
+            {
+                first: "Il",
+                answer: "regardera",
+                last: "",
+                showConjugation: "Il/Elle regardera",
+            },
+            { first: "On", answer: "regardera", last: "", showConjugation: "On regardera" },
+            {
+                first: "Nous",
+                answer: "regarderons",
+                last: "",
+                showConjugation: "Nous regarderons",
+            },
+            {
+                first: "Vous",
+                answer: "regarderez",
+                last: "",
+                showConjugation: "Vous regarderez",
+            },
+            {
+                first: "Ils",
+                answer: "regarderont",
+                last: "",
+                showConjugation: "Ils/Elles regarderont",
+            },
+        ],
+    },
+    {
+        name: "Sortir",
+        index: "S",
+        conjugation: [
+            {
+                first: "Je",
+                answer: "sortirai",
+                last: "",
+                showConjugation: "Je sortirai",
+            },
+            { first: "Tu", answer: "sortiras", last: "", showConjugation: "Tu sortiras" },
+            {
+                first: "Il",
+                answer: "sortira",
+                last: "",
+                showConjugation: "Il/Elle sortira",
+            },
+            { first: "On", answer: "sortira", last: "", showConjugation: "On sortira" },
+            {
+                first: "Nous",
+                answer: "sortirons",
+                last: "",
+                showConjugation: "Nous sortirons",
+            },
+            {
+                first: "Vous",
+                answer: "sortirez",
+                last: "",
+                showConjugation: "Vous sortirez",
+            },
+            {
+                first: "Ils",
+                answer: "sortiront",
+                last: "",
+                showConjugation: "Ils/Elles sortiront",
+            },
+        ],
+    },
+    {
+        name: "Trouver",
+        index: "T",
+        conjugation: [
+            {
+                first: "Je",
+                answer: "trouverai",
+                last: "",
+                showConjugation: "Je trouverai",
+            },
+            { first: "Tu", answer: "trouveras", last: "", showConjugation: "Tu trouveras" },
+            {
+                first: "Il",
+                answer: "trouvera",
+                last: "",
+                showConjugation: "Il/Elle trouvera",
+            },
+            { first: "On", answer: "trouvera", last: "", showConjugation: "On trouvera" },
+            {
+                first: "Nous",
+                answer: "trouverons",
+                last: "",
+                showConjugation: "Nous trouverons",
+            },
+            {
+                first: "Vous",
+                answer: "trouverez",
+                last: "",
+                showConjugation: "Vous trouverez",
+            },
+            {
+                first: "Ils",
+                answer: "trouveront",
+                last: "",
+                showConjugation: "Ils/Elles trouveront",
+            },
+        ],
+    },
+    {
+        name: "Voyager",
+        index: "V",
+        conjugation: [
+            {
+                first: "Je",
+                answer: "voyagerai",
+                last: "",
+                showConjugation: "Je voyagerai",
+            },
+            { first: "Tu", answer: "voyageras", last: "", showConjugation: "Tu voyageras" },
+            {
+                first: "Il",
+                answer: "voyagera",
+                last: "",
+                showConjugation: "Il/Elle voyagera",
+            },
+            { first: "On", answer: "voyagera", last: "", showConjugation: "On voyagera" },
+            {
+                first: "Nous",
+                answer: "voyagerons",
+                last: "",
+                showConjugation: "Nous voyagerons",
+            },
+            {
+                first: "Vous",
+                answer: "voyagerez",
+                last: "",
+                showConjugation: "Vous voyagerez",
+            },
+            {
+                first: "Ils",
+                answer: "voyageront",
+                last: "",
+                showConjugation: "Ils/Elles voyageront",
+            },
+        ],
     }
 ];
 
 
-
+// {
+//     name: "",
+//         index: "",
+//             conjugation: [
+//                 {
+//                     first: "Je",
+//                     answer: "",
+//                     last: "",
+//                     showConjugation: "Je ",
+//                 },
+//                 { first: "Tu", answer: "", last: "", showConjugation: "Tu " },
+//                 {
+//                     first: "Il",
+//                     answer: "",
+//                     last: "",
+//                     showConjugation: "Il/Elle ",
+//                 },
+//                 { first: "On", answer: "", last: "", showConjugation: "On " },
+//                 {
+//                     first: "Nous",
+//                     answer: "",
+//                     last: "",
+//                     showConjugation: "Nous ",
+//                 },
+//                 {
+//                     first: "Vous",
+//                     answer: "",
+//                     last: "",
+//                     showConjugation: "Vous ",
+//                 },
+//                 {
+//                     first: "Ils",
+//                     answer: "",
+//                     last: "",
+//                     showConjugation: "Ils/Elles ",
+//                 },
+//             ],
+// },
 
 
