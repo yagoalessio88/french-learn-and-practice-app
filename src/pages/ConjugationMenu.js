@@ -3,6 +3,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 import { data as simplePresent } from "../data/verbsConjugationSimplePresent-data.js";
 import { data as simpleFuture } from "../data/verbsConjugationSimpleFuture-data.js";
+import { data as simplePast } from "../data/verbsConjugationSimplePast-data.js";
 import { useDataContext } from "../context/DataContext.js";
 
 
@@ -21,6 +22,11 @@ const ConjugationMenu = () => {
 					<li className="home_list_item">
 						<Link to="/verbs-menu/simpleFuture" className="button" onClick={() => { setVerbsData(simpleFuture); setVerbsDataId("simpleFuture") }}>
 							Futur Simple
+						</Link>
+					</li>
+					<li className="home_list_item">
+						<Link to="/verbs-menu/simplePast" className="button" onClick={() => { setVerbsData(simplePast); setVerbsDataId("simplePast") }}>
+							L'imparfait
 						</Link>
 					</li>
 				</ul>
