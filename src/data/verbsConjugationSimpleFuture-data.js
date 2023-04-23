@@ -47,7 +47,7 @@ export const data = [
                 last: "",
                 showConjugation: "J'ajouterai",
             },
-            { first: "Tu", answer: "", last: "ajouteras", showConjugation: "Tu ajouteras" },
+            { first: "Tu", answer: "ajouteras", last: "", showConjugation: "Tu ajouteras" },
             {
                 first: "Il",
                 answer: "ajoutera",
